@@ -1,0 +1,21 @@
+# Environment
+.venv/
+__pycache__/
+*.pyc
+
+# Raw/incoming source data (immutable, huge, not reproducible from repo)
+data/raw/
+data/incoming/
+
+# Official CGM cache (1.4GB; treated as immutable partner-supplied input, same as
+# data/raw/ -- no script in this repo regenerates it, see src/glucose_spike_detection.py)
+outputs/glucose_raw.csv
+
+# Backup files
+*.bak
+
+# Local tool state
+.claude/
+.cursor/
+.vscode/
+logs/

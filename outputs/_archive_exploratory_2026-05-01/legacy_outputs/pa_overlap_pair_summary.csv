@@ -1,0 +1,8 @@
+pair_signature,n_rows,pair_bucket,pct_of_overlaps
+sedentary|NA,6134,exactly_one_maps_to_ordered_intensity,40.7439
+NA|sedentary,5725,exactly_one_maps_to_ordered_intensity,38.0272
+NA|NA,2430,neither_maps_to_ordered_intensity,16.1408
+NA|walking,317,exactly_one_maps_to_ordered_intensity,2.1056
+walking|NA,312,exactly_one_maps_to_ordered_intensity,2.0724
+NA|generic,77,neither_maps_to_ordered_intensity,0.5115
+generic|NA,60,neither_maps_to_ordered_intensity,0.3985

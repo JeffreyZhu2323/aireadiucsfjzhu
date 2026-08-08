@@ -1,0 +1,8 @@
+{
+  "policy": "strict filename match only",
+  "partner_source_dir": "/home/jeffreyzhu23/aireadi/outputs/eda_advanced",
+  "outputs_dir": "/home/jeffreyzhu23/aireadi/outputs",
+  "num_partner_files_considered": 16,
+  "num_replacements": 0,
+  "replacements": []
+}

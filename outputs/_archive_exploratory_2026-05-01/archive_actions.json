@@ -1,0 +1,74 @@
+{
+  "archive_dir": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01",
+  "moved_count": 17,
+  "moved": [
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/daily_aggregate.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/daily_aggregate.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/coverage_by_wear_stratum_summary.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/coverage_by_wear_stratum_summary.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/value_ranges_outliers_summary.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/value_ranges_outliers_summary.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/physical_activity_interval_summary.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/physical_activity_interval_summary.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/sleep_interval_summary.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/sleep_interval_summary.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/s1_activity_delta_bins.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/s1_activity_delta_bins.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/s1_env_delta_bins.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/s1_env_delta_bins.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/s1_glucose_delta_bins.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/s1_glucose_delta_bins.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/sleep_overlap_interval_rows.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/sleep_overlap_interval_rows.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/sleep_overlap_pair_summary.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/sleep_overlap_pair_summary.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/pa_overlap_interval_rows.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/pa_overlap_interval_rows.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/pa_overlap_pair_summary.csv",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/legacy_outputs/pa_overlap_pair_summary.csv"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/manifest_lists/files_environment.txt",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/manifest_lists/files_environment.txt"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/manifest_lists/files_glucose_activity.txt",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/manifest_lists/files_glucose_activity.txt"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/manifest_lists/files_sleep.txt",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/manifest_lists/files_sleep.txt"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/reports/import_manifest.json",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/eda_advanced_admin_reports/import_manifest.json"
+    },
+    {
+      "from": "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/reports/official_replacement_report.json",
+      "to": "/home/jeffreyzhu23/aireadi/outputs/_archive_exploratory_2026-05-01/eda_advanced_admin_reports/official_replacement_report.json"
+    }
+  ]
+}

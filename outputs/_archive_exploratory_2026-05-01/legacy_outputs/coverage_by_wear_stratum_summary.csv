@@ -1,0 +1,10 @@
+wear_stratum,stream,n_participants,median_days,iqr_days,median_records_per_day
+high,activity_point,12.0,21.0,4.75,563.43
+low,activity_point,12.0,13.50,1.50,815.14
+medium,activity_point,12.0,15.0,1.0,716.03
+high,glucose,12.0,11.0,0.0,259.36
+low,glucose,12.0,11.0,0.0,259.55
+medium,glucose,12.0,11.0,0.0,259.55
+high,environment,12.0,10.95,1.62,17301.39
+low,environment,12.0,10.35,0.90,17284.70
+medium,environment,12.0,10.0,3.60,17273.33

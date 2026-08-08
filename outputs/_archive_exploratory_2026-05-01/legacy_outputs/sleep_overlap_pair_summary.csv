@@ -1,0 +1,16 @@
+pair_signature,n_rows,pair_bucket,pct_of_overlaps
+light|light,1164,both_ordered_same_stage,46.6533
+awake|awake,475,both_ordered_same_stage,19.0381
+deep|deep,430,both_ordered_same_stage,17.2345
+rem|rem,362,both_ordered_same_stage,14.509
+awake|light,15,both_ordered_adjacent_stages,0.6012
+deep|light,12,both_ordered_adjacent_stages,0.481
+light|deep,12,both_ordered_adjacent_stages,0.481
+light|rem,6,both_ordered_two_steps_apart,0.2405
+rem|light,5,both_ordered_two_steps_apart,0.2004
+light|awake,5,both_ordered_adjacent_stages,0.2004
+deep|awake,4,both_ordered_two_steps_apart,0.1603
+rem|deep,2,both_ordered_adjacent_stages,0.0802
+awake|deep,1,both_ordered_two_steps_apart,0.0401
+awake|rem,1,both_ordered_three_plus_steps_apart,0.0401
+deep|rem,1,both_ordered_adjacent_stages,0.0401

@@ -1,0 +1,2 @@
+stratum,feature,n,spearman_rho,p_value,ci_low,ci_high,p_value_fdr_bh,significant_fdr_0_05
+ALL,mean_glucose,2233,-0.17357079975176845,1.4542530847550336e-16,-0.21240398312999575,-0.13270063845230726,1.4542530847550336e-16,True

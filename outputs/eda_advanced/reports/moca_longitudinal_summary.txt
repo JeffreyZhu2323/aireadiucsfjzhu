@@ -1,0 +1,3 @@
+Total participants with MOCA tests: 2254
+Total participants with multiple MOCA tests: 0
+

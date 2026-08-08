@@ -1,0 +1,7 @@
+Group 1,Group 2,Mean Diff,2.5% CI,97.5% CI
+oral_medication_and_or_non_insulin_injectable_medication_controlled,insulin_dependent,-31.24273602946212,-38.93920492351795,-23.826638405416574
+oral_medication_and_or_non_insulin_injectable_medication_controlled,healthy,30.339991353526987,27.079549642802956,33.56480552403795
+oral_medication_and_or_non_insulin_injectable_medication_controlled,pre_diabetes_lifestyle_controlled,22.452423211659255,18.757233185699437,26.25329608354312
+insulin_dependent,healthy,61.579859025561476,54.48333419845145,68.52605486185371
+insulin_dependent,pre_diabetes_lifestyle_controlled,53.81006936477008,46.41791149568714,61.39485014365119
+healthy,pre_diabetes_lifestyle_controlled,-7.839626631091485,-10.17722977154244,-5.590869672863799

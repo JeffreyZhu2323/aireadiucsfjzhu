@@ -1,0 +1,8 @@
+Bootstrap Mean Differences for mean_glucose:
+                                                            Group 1                           Group 2  Mean Diff    2.5% CI   97.5% CI
+oral_medication_and_or_non_insulin_injectable_medication_controlled                 insulin_dependent -31.242736 -38.939205 -23.826638
+oral_medication_and_or_non_insulin_injectable_medication_controlled                           healthy  30.339991  27.079550  33.564806
+oral_medication_and_or_non_insulin_injectable_medication_controlled pre_diabetes_lifestyle_controlled  22.452423  18.757233  26.253296
+                                                  insulin_dependent                           healthy  61.579859  54.483334  68.526055
+                                                  insulin_dependent pre_diabetes_lifestyle_controlled  53.810069  46.417911  61.394850
+                                                            healthy pre_diabetes_lifestyle_controlled  -7.839627 -10.177230  -5.590870

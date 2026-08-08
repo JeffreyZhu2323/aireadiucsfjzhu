@@ -1,0 +1,9 @@
+row_0,heart_rate,oxygen_saturation,physical_activity_calorie,respiratory_rate,stress
+dup_0s,1,0,0,13,13
+near_dup_0-10s,0,0,0,0,0
+high_freq_10s-3min,369699,67936,18861,860006,860681
+near5_low_3-<5min,22084,1537,10047,0,0
+exact_5min,3115,355,2827,0,0
+near5_high_>5-7min,2647,411,3924,0,0
+short_gap_7-30min,21424,757,8561,2,2
+long_gap_>30min,5,473,3058,4,4

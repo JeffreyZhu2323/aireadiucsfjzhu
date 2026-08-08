@@ -1,0 +1,9 @@
+,count,pct
+dup_0s,0,0.0
+near_dup_0-10s,0,0.0
+high_freq_10s-3min,0,0.0
+near5_low_3-<5min,53,0.05
+exact_5min,100261,99.85
+near5_high_>5-7min,53,0.05
+short_gap_7-30min,26,0.03
+long_gap_>30min,15,0.01

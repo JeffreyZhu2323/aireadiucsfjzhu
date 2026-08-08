@@ -1,0 +1,49 @@
+diabetes_group,cutoff,metric,description,n_impaired,n_unimpaired,median_impaired,median_unimpaired,mann_whitney_u,p_value,rank_biserial,p_value_fdr_bh,significant_fdr_0_05
+healthy,26,total_movement,Total movement over study period,242,474,50658.11111111112,53613.29345238095,54338.0,0.24936793612405916,-0.052585695853820114,0.7400365317033889,False
+healthy,26,physical_activity_num_days,Days of activity coverage (manifest),245,481,16.0,16.0,57125.5,0.4987420815737913,-0.030497687640544835,0.7400365317033889,False
+healthy,26,average_active_calories_kcal,Mean active calories/day (manifest),250,490,173.075,185.75,59803.5,0.598988830591717,-0.023616326530612297,0.7400365317033889,False
+healthy,26,average_daily_activity,Mean daily steps (manifest),245,481,5597.5,5805.0,58035.5,0.7400365317033889,-0.01505367219652931,0.7400365317033889,False
+healthy,24,total_movement,Total movement over study period,118,598,48026.075,53609.55059523809,30323.0,0.015737949716512305,-0.14055325661810558,0.06295179886604922,False
+healthy,24,physical_activity_num_days,Days of activity coverage (manifest),120,606,16.0,16.0,33818.0,0.22312486365154116,-0.06991199119911995,0.22312486365154116,False
+healthy,24,average_active_calories_kcal,Mean active calories/day (manifest),122,618,165.55,185.445,34858.5,0.18817276149011108,-0.0753222982651599,0.22312486365154116,False
+healthy,24,average_daily_activity,Mean daily steps (manifest),120,606,5532.5650000000005,5806.15,33401.0,0.15864970127322853,-0.08138063806380635,0.22312486365154116,False
+healthy,23,total_movement,Total movement over study period,80,636,48806.97023809524,52750.627380952385,22617.5,0.10554063319383812,-0.11094732704402521,0.25470336623699524,False
+healthy,23,physical_activity_num_days,Days of activity coverage (manifest),82,644,15.0,16.0,24079.0,0.19102752467774642,-0.08805484017573095,0.25470336623699524,False
+healthy,23,average_active_calories_kcal,Mean active calories/day (manifest),83,657,161.69,185.42,24507.5,0.13283840243117398,-0.10115347233683591,0.25470336623699524,False
+healthy,23,average_daily_activity,Mean daily steps (manifest),82,644,5572.485000000001,5735.695,24626.0,0.320297421866127,-0.06733828207847292,0.320297421866127,False
+pre_diabetes_lifestyle_controlled,26,total_movement,Total movement over study period,193,331,51062.65833333333,54467.138095238086,28617.5,0.046787881511068705,-0.10406524427468966,0.18715152604427482,False
+pre_diabetes_lifestyle_controlled,26,physical_activity_num_days,Days of activity coverage (manifest),193,334,16.0,16.0,30043.0,0.19130780346402276,-0.06788495547764573,0.25507707128536367,False
+pre_diabetes_lifestyle_controlled,26,average_active_calories_kcal,Mean active calories/day (manifest),198,340,176.685,189.085,31076.5,0.13731031427479523,-0.07675282234105762,0.25507707128536367,False
+pre_diabetes_lifestyle_controlled,26,average_daily_activity,Mean daily steps (manifest),193,334,5497.56,5787.605,30371.0,0.2694691401595176,-0.05770841736216681,0.2694691401595176,False
+pre_diabetes_lifestyle_controlled,24,total_movement,Total movement over study period,95,429,52464.34465648854,52602.32142857142,19881.5,0.7105486424744079,-0.02434057170899273,0.9269810986980794,False
+pre_diabetes_lifestyle_controlled,24,physical_activity_num_days,Days of activity coverage (manifest),95,432,16.0,16.0,18892.0,0.22305728401648672,-0.07933723196881093,0.8922291360659469,False
+pre_diabetes_lifestyle_controlled,24,average_active_calories_kcal,Mean active calories/day (manifest),98,440,180.69,179.0,21688.0,0.9269810986980794,0.005936920222634479,0.9269810986980794,False
+pre_diabetes_lifestyle_controlled,24,average_daily_activity,Mean daily steps (manifest),95,432,5741.12,5717.360000000001,20283.0,0.8602773760774103,-0.011549707602339199,0.9269810986980794,False
+pre_diabetes_lifestyle_controlled,23,total_movement,Total movement over study period,59,465,51573.59166666667,52701.57976190476,12523.0,0.2757289202391794,-0.08707854929834158,0.5458666175380169,False
+pre_diabetes_lifestyle_controlled,23,physical_activity_num_days,Days of activity coverage (manifest),59,468,16.0,16.0,12666.0,0.29831938284767345,-0.08257279443720122,0.5458666175380169,False
+pre_diabetes_lifestyle_controlled,23,average_active_calories_kcal,Mean active calories/day (manifest),62,476,178.345,179.79500000000002,13806.0,0.4093999631535127,-0.06438059094605586,0.5458666175380169,False
+pre_diabetes_lifestyle_controlled,23,average_daily_activity,Mean daily steps (manifest),59,468,5786.22,5711.345,13359.0,0.685371426286689,-0.03237722729248149,0.685371426286689,False
+oral_medication_and_or_non_insulin_injectable_medication_controlled,26,total_movement,Total movement over study period,283,346,46835.27023809524,50854.80158730159,44076.5,0.03127104325395822,-0.0997263015992974,0.06254208650791644,False
+oral_medication_and_or_non_insulin_injectable_medication_controlled,26,physical_activity_num_days,Days of activity coverage (manifest),285,351,15.0,16.0,43436.0,0.004090224957407816,-0.1315839456190333,0.016360899829631265,True
+oral_medication_and_or_non_insulin_injectable_medication_controlled,26,average_active_calories_kcal,Mean active calories/day (manifest),292,358,164.07,179.43,49870.0,0.31379688400432604,-0.04587893165990664,0.4183958453391014,False
+oral_medication_and_or_non_insulin_injectable_medication_controlled,26,average_daily_activity,Mean daily steps (manifest),285,351,5714.27,5880.48,48764.0,0.5865140734567612,-0.025061228570000482,0.5865140734567612,False
+oral_medication_and_or_non_insulin_injectable_medication_controlled,24,total_movement,Total movement over study period,159,470,47406.50119047619,50177.637500000004,34368.0,0.13025513810099082,-0.0802087515054195,0.26051027620198164,False
+oral_medication_and_or_non_insulin_injectable_medication_controlled,24,physical_activity_num_days,Days of activity coverage (manifest),160,476,15.0,15.0,33669.0,0.02743594948124351,-0.11583508403361342,0.10974379792497405,False
+oral_medication_and_or_non_insulin_injectable_medication_controlled,24,average_active_calories_kcal,Mean active calories/day (manifest),164,486,169.97,175.41500000000002,38929.0,0.6571380036385525,-0.023160694569908657,0.8226678259196456,False
+oral_medication_and_or_non_insulin_injectable_medication_controlled,24,average_daily_activity,Mean daily steps (manifest),160,476,6137.09,5723.115,38531.0,0.8226678259196456,0.011843487394957997,0.8226678259196456,False
+oral_medication_and_or_non_insulin_injectable_medication_controlled,23,total_movement,Total movement over study period,116,513,47585.92083333334,49715.09642857143,28591.5,0.5108375347081502,-0.03907037709215566,0.6811167129442003,False
+oral_medication_and_or_non_insulin_injectable_medication_controlled,23,physical_activity_num_days,Days of activity coverage (manifest),117,519,15.0,15.0,26001.5,0.014640393985237017,-0.1436029181693922,0.05856157594094807,False
+oral_medication_and_or_non_insulin_injectable_medication_controlled,23,average_active_calories_kcal,Mean active calories/day (manifest),120,530,173.64499999999998,174.31,31291.0,0.7841624838734913,-0.016006289308176047,0.7841624838734913,False
+oral_medication_and_or_non_insulin_injectable_medication_controlled,23,average_daily_activity,Mean daily steps (manifest),117,519,6408.06,5731.33,31694.5,0.45785306499872114,0.043904286678853044,0.6811167129442003,False
+insulin_dependent,26,total_movement,Total movement over study period,135,103,49217.51666666667,44929.65,7525.5,0.27659870208373816,0.08241639697950376,0.36879826944498423,False
+insulin_dependent,26,physical_activity_num_days,Days of activity coverage (manifest),137,104,15.0,15.0,6763.0,0.4987621363247666,-0.05067377877596857,0.4987621363247666,False
+insulin_dependent,26,average_active_calories_kcal,Mean active calories/day (manifest),140,105,167.86,141.5,8137.0,0.15180746821157529,0.10707482993197281,0.36879826944498423,False
+insulin_dependent,26,average_daily_activity,Mean daily steps (manifest),137,104,5361.48,4930.355,7760.0,0.2357163228400284,0.08927568781583384,0.36879826944498423,False
+insulin_dependent,24,total_movement,Total movement over study period,84,154,51726.40952380953,44488.05865384616,7419.5,0.060962202685305174,0.14710884353741505,0.12192440537061035,False
+insulin_dependent,24,physical_activity_num_days,Days of activity coverage (manifest),84,157,15.0,15.0,6802.0,0.6857010734748341,0.03154382772217157,0.6857010734748341,False
+insulin_dependent,24,average_active_calories_kcal,Mean active calories/day (manifest),87,158,179.84,148.41500000000002,7695.0,0.12161543809216664,0.11959842863378434,0.16215391745622218,False
+insulin_dependent,24,average_daily_activity,Mean daily steps (manifest),84,157,5764.22,4814.73,7767.0,0.022968558896779012,0.17788898999090086,0.09187423558711605,False
+insulin_dependent,23,total_movement,Total movement over study period,71,167,52595.42738095237,44728.100000000006,6880.5,0.05020655589235271,0.16058024795479464,0.06694207452313695,False
+insulin_dependent,23,physical_activity_num_days,Days of activity coverage (manifest),71,170,16.0,15.0,6381.5,0.4805743228475028,0.05741507870753937,0.4805743228475028,False
+insulin_dependent,23,average_active_calories_kcal,Mean active calories/day (manifest),73,172,197.0,146.44,7381.0,0.029722824748161614,0.17569289582669634,0.05944564949632323,False
+insulin_dependent,23,average_daily_activity,Mean daily steps (manifest),71,170,5732.13,4872.665,7136.0,0.025682575525496198,0.18243579121789555,0.05944564949632323,False

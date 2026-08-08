@@ -1,0 +1,23 @@
+{
+  "source_zip": "/home/jeffreyzhu23/drive-download-20260430T001219Z-3-001.zip",
+  "staging_dir": "/home/jeffreyzhu23/aireadi/data/incoming/drive-download-20260430T001219Z-3-001",
+  "output_base": "/home/jeffreyzhu23/aireadi/outputs/eda_advanced",
+  "copied_files": [
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/tables/all_patients_5min_summary.csv",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/tables/all_patients_hourly_summary.csv",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/tables/bootstrap_diff_mean_glucose.csv",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/reports/bootstrap_diff_mean_glucose.txt",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/tables/bootstrap_diff_moca_score.csv",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/reports/bootstrap_diff_moca_score.txt",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/figures/correlation_heatmap.png",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/figures/diabetes_class_balance.png",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/tables/master_patient_features.csv",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/tables/moca_descriptive_stats.csv",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/tables/moca_longitudinal.csv",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/reports/moca_longitudinal_summary.txt",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/figures/moca_subcategories_correlation.png",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/figures/stratified_cognition.png",
+    "/home/jeffreyzhu23/aireadi/outputs/eda_advanced/reports/walkthrough.md"
+  ],
+  "replacements": []
+}
