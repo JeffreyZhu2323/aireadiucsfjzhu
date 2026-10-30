@@ -1,0 +1,360 @@
+survey,item_code,item_text,value_code,value_label,value_kind,n_respondents
+CES-D-10 depression,ces1,I was bothered by things that usually don't bother me,0.0,Rarely or none of the time (<1 day),response,1639
+CES-D-10 depression,ces1,I was bothered by things that usually don't bother me,1.0,Some or a little of the time (1-2 days),response,463
+CES-D-10 depression,ces1,I was bothered by things that usually don't bother me,2.0,Occasionally or a moderate amount of time (3-4 days),response,145
+CES-D-10 depression,ces1,I was bothered by things that usually don't bother me,3.0,All of the time (5-7 days),response,27
+CES-D-10 depression,ces10,I could not 'get going',0.0,Rarely or none of the time (<1 day),response,1412
+CES-D-10 depression,ces10,I could not 'get going',1.0,Some or a little of the time (1-2 days),response,588
+CES-D-10 depression,ces10,I could not 'get going',2.0,Occasionally or a moderate amount of time (3-4 days),response,219
+CES-D-10 depression,ces10,I could not 'get going',3.0,All of the time (5-7 days),response,56
+CES-D-10 depression,ces2,I had trouble keeping my mind on what I was doing,0.0,Rarely or none of the time (<1 day),response,1357
+CES-D-10 depression,ces2,I had trouble keeping my mind on what I was doing,1.0,Some or a little of the time (1-2 days),response,623
+CES-D-10 depression,ces2,I had trouble keeping my mind on what I was doing,2.0,Occasionally or a moderate amount of time (3-4 days),response,213
+CES-D-10 depression,ces2,I had trouble keeping my mind on what I was doing,3.0,All of the time (5-7 days),response,78
+CES-D-10 depression,ces3,I felt depressed,0.0,Rarely or none of the time (<1 day),response,1555
+CES-D-10 depression,ces3,I felt depressed,1.0,Some or a little of the time (1-2 days),response,482
+CES-D-10 depression,ces3,I felt depressed,2.0,Occasionally or a moderate amount of time (3-4 days),response,182
+CES-D-10 depression,ces3,I felt depressed,3.0,All of the time (5-7 days),response,55
+CES-D-10 depression,ces4,I felt that everything I did was an effort,0.0,Rarely or none of the time (<1 day),response,1418
+CES-D-10 depression,ces4,I felt that everything I did was an effort,1.0,Some or a little of the time (1-2 days),response,579
+CES-D-10 depression,ces4,I felt that everything I did was an effort,2.0,Occasionally or a moderate amount of time (3-4 days),response,170
+CES-D-10 depression,ces4,I felt that everything I did was an effort,3.0,All of the time (5-7 days),response,105
+CES-D-10 depression,ces5,I felt hopeful about the future (reverse-scored),0.0,Rarely or none of the time (<1 day),response,1033
+CES-D-10 depression,ces5,I felt hopeful about the future (reverse-scored),1.0,Some or a little of the time (1-2 days),response,693
+CES-D-10 depression,ces5,I felt hopeful about the future (reverse-scored),2.0,Occasionally or a moderate amount of time (3-4 days),response,295
+CES-D-10 depression,ces5,I felt hopeful about the future (reverse-scored),3.0,All of the time (5-7 days),response,246
+CES-D-10 depression,ces6,I felt fearful,0.0,Rarely or none of the time (<1 day),response,1700
+CES-D-10 depression,ces6,I felt fearful,1.0,Some or a little of the time (1-2 days),response,407
+CES-D-10 depression,ces6,I felt fearful,2.0,Occasionally or a moderate amount of time (3-4 days),response,132
+CES-D-10 depression,ces6,I felt fearful,3.0,All of the time (5-7 days),response,30
+CES-D-10 depression,ces7,My sleep was restless,0.0,Rarely or none of the time (<1 day),response,813
+CES-D-10 depression,ces7,My sleep was restless,1.0,Some or a little of the time (1-2 days),response,809
+CES-D-10 depression,ces7,My sleep was restless,2.0,Occasionally or a moderate amount of time (3-4 days),response,439
+CES-D-10 depression,ces7,My sleep was restless,3.0,All of the time (5-7 days),response,210
+CES-D-10 depression,ces8,I was happy (reverse-scored),0.0,Rarely or none of the time (<1 day),response,1011
+CES-D-10 depression,ces8,I was happy (reverse-scored),1.0,Some or a little of the time (1-2 days),response,942
+CES-D-10 depression,ces8,I was happy (reverse-scored),2.0,Occasionally or a moderate amount of time (3-4 days),response,250
+CES-D-10 depression,ces8,I was happy (reverse-scored),3.0,All of the time (5-7 days),response,73
+CES-D-10 depression,ces9,I felt lonely,0.0,Rarely or none of the time (<1 day),response,1566
+CES-D-10 depression,ces9,I felt lonely,1.0,Some or a little of the time (1-2 days),response,450
+CES-D-10 depression,ces9,I felt lonely,2.0,Occasionally or a moderate amount of time (3-4 days),response,180
+CES-D-10 depression,ces9,I felt lonely,3.0,All of the time (5-7 days),response,69
+PAID-5 diabetes distress,paid_cml,Coping with complications of diabetes,0.0,Not a problem,response,1348
+PAID-5 diabetes distress,paid_cml,Coping with complications of diabetes,1.0,Minor problem,response,470
+PAID-5 diabetes distress,paid_cml,Coping with complications of diabetes,2.0,Moderate problem,response,245
+PAID-5 diabetes distress,paid_cml,Coping with complications of diabetes,3.0,Somewhat serious problem,response,92
+PAID-5 diabetes distress,paid_cml,Coping with complications of diabetes,4.0,Serious problem,response,65
+PAID-5 diabetes distress,paid_dpr,Feeling depressed when you think about living with diabetes,0.0,Not a problem,response,1277
+PAID-5 diabetes distress,paid_dpr,Feeling depressed when you think about living with diabetes,1.0,Minor problem,response,514
+PAID-5 diabetes distress,paid_dpr,Feeling depressed when you think about living with diabetes,2.0,Moderate problem,response,238
+PAID-5 diabetes distress,paid_dpr,Feeling depressed when you think about living with diabetes,3.0,Somewhat serious problem,response,116
+PAID-5 diabetes distress,paid_dpr,Feeling depressed when you think about living with diabetes,4.0,Serious problem,response,78
+PAID-5 diabetes distress,paid_eng,Feeling that diabetes is taking up too much mental and physical energy every day,0.0,Not a problem,response,1492
+PAID-5 diabetes distress,paid_eng,Feeling that diabetes is taking up too much mental and physical energy every day,1.0,Minor problem,response,411
+PAID-5 diabetes distress,paid_eng,Feeling that diabetes is taking up too much mental and physical energy every day,2.0,Moderate problem,response,203
+PAID-5 diabetes distress,paid_eng,Feeling that diabetes is taking up too much mental and physical energy every day,3.0,Somewhat serious problem,response,78
+PAID-5 diabetes distress,paid_eng,Feeling that diabetes is taking up too much mental and physical energy every day,4.0,Serious problem,response,37
+PAID-5 diabetes distress,paid_scrd,Feeling scared when you think about living with diabetes,0.0,Not a problem,response,1051
+PAID-5 diabetes distress,paid_scrd,Feeling scared when you think about living with diabetes,1.0,Minor problem,response,568
+PAID-5 diabetes distress,paid_scrd,Feeling scared when you think about living with diabetes,2.0,Moderate problem,response,326
+PAID-5 diabetes distress,paid_scrd,Feeling scared when you think about living with diabetes,3.0,Somewhat serious problem,response,165
+PAID-5 diabetes distress,paid_scrd,Feeling scared when you think about living with diabetes,4.0,Serious problem,response,117
+PAID-5 diabetes distress,paid_wr,Worrying about the future and the possibility of serious complications,0.0,Not a problem,response,914
+PAID-5 diabetes distress,paid_wr,Worrying about the future and the possibility of serious complications,1.0,Minor problem,response,642
+PAID-5 diabetes distress,paid_wr,Worrying about the future and the possibility of serious complications,2.0,Moderate problem,response,370
+PAID-5 diabetes distress,paid_wr,Worrying about the future and the possibility of serious complications,3.0,Somewhat serious problem,response,191
+PAID-5 diabetes distress,paid_wr,Worrying about the future and the possibility of serious complications,4.0,Serious problem,response,108
+Dietary questionnaire,diet1,How many times a week did you eat fast food meals or snacks?,0.0,Less than 1 time,response,1097
+Dietary questionnaire,diet1,How many times a week did you eat fast food meals or snacks?,1.0,1-3 times,response,894
+Dietary questionnaire,diet1,How many times a week did you eat fast food meals or snacks?,2.0,4 or more times,response,210
+Dietary questionnaire,diet1,How many times a week did you eat fast food meals or snacks?,777.0,Prefer not to say,missing,2
+Dietary questionnaire,diet2,How many servings of fruit did you eat each day?,0.0,5 or more,response,89
+Dietary questionnaire,diet2,How many servings of fruit did you eat each day?,1.0,3-4,response,599
+Dietary questionnaire,diet2,How many servings of fruit did you eat each day?,2.0,2 or less,response,1480
+Dietary questionnaire,diet2,How many servings of fruit did you eat each day?,777.0,Prefer not to say,missing,9
+Dietary questionnaire,diet3,How many servings of vegetables did you eat each day?,0.0,5 or more,response,163
+Dietary questionnaire,diet3,How many servings of vegetables did you eat each day?,1.0,3-4,response,851
+Dietary questionnaire,diet3,How many servings of vegetables did you eat each day?,2.0,2 or less,response,1183
+Dietary questionnaire,diet3,How many servings of vegetables did you eat each day?,777.0,Prefer not to say,missing,6
+Dietary questionnaire,diet4,How many regular sodas or glasses of sweet tea did you drink each day?,0.0,Less than 1,response,1816
+Dietary questionnaire,diet4,How many regular sodas or glasses of sweet tea did you drink each day?,1.0,1-2,response,279
+Dietary questionnaire,diet4,How many regular sodas or glasses of sweet tea did you drink each day?,2.0,3 or more,response,98
+Dietary questionnaire,diet4,How many regular sodas or glasses of sweet tea did you drink each day?,777.0,Prefer not to say,missing,10
+Dietary questionnaire,diet5,"How many times a week did you eat beans, chicken, or fish?",0.0,3 or more times,response,1277
+Dietary questionnaire,diet5,"How many times a week did you eat beans, chicken, or fish?",1.0,1-2 times,response,692
+Dietary questionnaire,diet5,"How many times a week did you eat beans, chicken, or fish?",2.0,Less than 1 time,response,231
+Dietary questionnaire,diet5,"How many times a week did you eat beans, chicken, or fish?",777.0,Prefer not to say,missing,3
+Dietary questionnaire,diet6,How many times a week did you eat regular snack chips or crackers (not low-fat)?,0.0,1 time or less,response,1225
+Dietary questionnaire,diet6,How many times a week did you eat regular snack chips or crackers (not low-fat)?,1.0,2-3 times,response,795
+Dietary questionnaire,diet6,How many times a week did you eat regular snack chips or crackers (not low-fat)?,2.0,4 or more times,response,181
+Dietary questionnaire,diet6,How many times a week did you eat regular snack chips or crackers (not low-fat)?,777.0,Prefer not to say,missing,2
+Dietary questionnaire,diet7,How many times a week did you eat desserts and other sweets (not low-fat)?,0.0,1 time or less,response,1017
+Dietary questionnaire,diet7,How many times a week did you eat desserts and other sweets (not low-fat)?,1.0,2-3 times,response,852
+Dietary questionnaire,diet7,How many times a week did you eat desserts and other sweets (not low-fat)?,2.0,4 or more times,response,331
+Dietary questionnaire,diet7,How many times a week did you eat desserts and other sweets (not low-fat)?,777.0,Prefer not to say,missing,3
+Dietary questionnaire,diet8,"How much margarine, butter, or meat fat do you use to season vegetables or put on potatoes, bread or corn?",0.0,Very little,response,954
+Dietary questionnaire,diet8,"How much margarine, butter, or meat fat do you use to season vegetables or put on potatoes, bread or corn?",1.0,Some,response,1054
+Dietary questionnaire,diet8,"How much margarine, butter, or meat fat do you use to season vegetables or put on potatoes, bread or corn?",2.0,A lot,response,192
+Dietary questionnaire,diet8,"How much margarine, butter, or meat fat do you use to season vegetables or put on potatoes, bread or corn?",777.0,Prefer not to say,missing,3
+Dietary questionnaire,diet9,How many servings of fruit juice did you drink each day?,0.0,Less than 1,response,1835
+Dietary questionnaire,diet9,How many servings of fruit juice did you drink each day?,1.0,1-2,response,308
+Dietary questionnaire,diet9,How many servings of fruit juice did you drink each day?,2.0,3 or more,response,53
+Dietary questionnaire,diet9,How many servings of fruit juice did you drink each day?,777.0,Prefer not to say,missing,7
+Diabetes self-care,dmlact,What would you consider your typical activity level to be?,0.0,"Not active (TV, computer, phone, use lifts)",response,308
+Diabetes self-care,dmlact,What would you consider your typical activity level to be?,5.0,Somewhat active,response,720
+Diabetes self-care,dmlact,What would you consider your typical activity level to be?,10.0,"Active (stairs, walks, housework)",response,1246
+Diabetes self-care,dmlact,What would you consider your typical activity level to be?,777.0,Prefer not to say,missing,6
+Diabetes self-care,dmledu,How often would you say that you engage in diabetes health education?,0.0,Rarely or none,response,1592
+Diabetes self-care,dmledu,How often would you say that you engage in diabetes health education?,5.0,Occasionally; every 2-3 months,response,463
+Diabetes self-care,dmledu,How often would you say that you engage in diabetes health education?,10.0,Regularly; at least monthly,response,213
+Diabetes self-care,dmledu,How often would you say that you engage in diabetes health education?,777.0,Prefer not to say,missing,12
+Diabetes self-care,dmlfeet,How often do you inspect your feet?,0.0,Rarely or none,response,717
+Diabetes self-care,dmlfeet,How often do you inspect your feet?,5.0,Monthly,response,296
+Diabetes self-care,dmlfeet,How often do you inspect your feet?,10.0,Daily or weekly,response,1261
+Diabetes self-care,dmlfeet,How often do you inspect your feet?,777.0,Prefer not to say,missing,6
+Diabetes self-care,dmlfrveg,"In a typical day, how many servings of fruits and vegetables do you consume?",0.0,Rarely or none,response,216
+Diabetes self-care,dmlfrveg,"In a typical day, how many servings of fruits and vegetables do you consume?",5.0,1-3 servings or pieces per day,response,1603
+Diabetes self-care,dmlfrveg,"In a typical day, how many servings of fruits and vegetables do you consume?",10.0,4-5 servings or pieces of fruits and raw vegetables per day,response,454
+Diabetes self-care,dmlfrveg,"In a typical day, how many servings of fruits and vegetables do you consume?",777.0,Prefer not to say,missing,7
+Diabetes self-care,dmlgrain,"In a typical day, how often do you consume whole grains?",0.0,Usually eat white bread or white rice,response,418
+Diabetes self-care,dmlgrain,"In a typical day, how often do you consume whole grains?",5.0,Rarely eat whole grain,response,702
+Diabetes self-care,dmlgrain,"In a typical day, how often do you consume whole grains?",10.0,Usually eat whole grain,response,1148
+Diabetes self-care,dmlgrain,"In a typical day, how often do you consume whole grains?",777.0,Prefer not to say,missing,12
+Diabetes self-care,dmlhex,How often would you say that you engage in daily home exercise?,0.0,Rarely or none,response,677
+Diabetes self-care,dmlhex,How often would you say that you engage in daily home exercise?,5.0,Irregular; once or twice a week,response,752
+Diabetes self-care,dmlhex,How often would you say that you engage in daily home exercise?,10.0,Doing daily or almost daily,response,846
+Diabetes self-care,dmlhex,How often would you say that you engage in daily home exercise?,777.0,Prefer not to say,missing,5
+Diabetes self-care,dmlmd,Which option best describes you with respect to physician care and medications?,0.0,Rarely or none; not taking 1 or more recommended medicines,response,123
+Diabetes self-care,dmlmd,Which option best describes you with respect to physician care and medications?,5.0,1-2 visits a year; forgetting medicines frequently,response,320
+Diabetes self-care,dmlmd,Which option best describes you with respect to physician care and medications?,10.0,3 or more visits a year to the same doctor; regular with medicines,response,1720
+Diabetes self-care,dmlmd,Which option best describes you with respect to physician care and medications?,777.0,Prefer not to say,missing,117
+Diabetes self-care,dmlpor,Which of the following best describes your approach to portion control?,0.0,Rarely or none; eat at buffets and restaurants with large portions,response,132
+Diabetes self-care,dmlpor,Which of the following best describes your approach to portion control?,5.0,Occasionally limit portions,response,1229
+Diabetes self-care,dmlpor,Which of the following best describes your approach to portion control?,10.0,Eat small portions and avoid second servings,response,905
+Diabetes self-care,dmlpor,Which of the following best describes your approach to portion control?,777.0,Prefer not to say,missing,14
+Diabetes self-care,dmlsugar,How often do you consume simple sugars?,0.0,Frequently eat sweets,response,639
+Diabetes self-care,dmlsugar,How often do you consume simple sugars?,5.0,Occasionally eat sweets,response,1264
+Diabetes self-care,dmlsugar,How often do you consume simple sugars?,10.0,Rarely eat sweets,response,372
+Diabetes self-care,dmlsugar,How often do you consume simple sugars?,777.0,Prefer not to say,missing,5
+Diabetes self-care,dmlvex,"In a typical week, how often do you engage in vigorous exercise?",0.0,Rarely or none,response,741
+Diabetes self-care,dmlvex,"In a typical week, how often do you engage in vigorous exercise?",5.0,Less than 30 minutes daily less than 3 days a week,response,568
+Diabetes self-care,dmlvex,"In a typical week, how often do you engage in vigorous exercise?",10.0,At least 30 minutes daily 3 or more days a week,response,965
+Diabetes self-care,dmlvex,"In a typical week, how often do you engage in vigorous exercise?",777.0,Prefer not to say,missing,6
+PhenX SDOH,pxahc1,About how long has it been since you last saw a doctor or other health care professional?,0.0,Never,response,10
+PhenX SDOH,pxahc1,About how long has it been since you last saw a doctor or other health care professional?,1.0,Within the past year,response,1984
+PhenX SDOH,pxahc1,About how long has it been since you last saw a doctor or other health care professional?,2.0,Within the last 2 years,response,56
+PhenX SDOH,pxahc1,About how long has it been since you last saw a doctor or other health care professional?,3.0,Within the last 3 years,response,8
+PhenX SDOH,pxahc1,About how long has it been since you last saw a doctor or other health care professional?,4.0,Within the last 5 years,response,3
+PhenX SDOH,pxahc1,About how long has it been since you last saw a doctor or other health care professional?,777.0,Prefer not to say,missing,2
+PhenX SDOH,pxahc10,"During the past 12 months, did you need medical care but NOT GET IT because of the cost?",0.0,No,response,1926
+PhenX SDOH,pxahc10,"During the past 12 months, did you need medical care but NOT GET IT because of the cost?",1.0,Yes,response,120
+PhenX SDOH,pxahc10,"During the past 12 months, did you need medical care but NOT GET IT because of the cost?",555.0,Not applicable / don't know,missing,7
+PhenX SDOH,pxahc10,"During the past 12 months, did you need medical care but NOT GET IT because of the cost?",777.0,Prefer not to say,missing,10
+PhenX SDOH,pxahc2,"Was this a wellness visit, physical, or general purpose check-up?",0.0,No,response,247
+PhenX SDOH,pxahc2,"Was this a wellness visit, physical, or general purpose check-up?",1.0,Yes,response,1792
+PhenX SDOH,pxahc2,"Was this a wellness visit, physical, or general purpose check-up?",555.0,Not applicable / don't know,missing,9
+PhenX SDOH,pxahc2,"Was this a wellness visit, physical, or general purpose check-up?",777.0,Prefer not to say,missing,3
+PhenX SDOH,pxahc3,About how long has it been since you last saw a doctor for a wellness visit or check-up?,0.0,Never,response,3
+PhenX SDOH,pxahc3,About how long has it been since you last saw a doctor for a wellness visit or check-up?,1.0,Within the past year,response,184
+PhenX SDOH,pxahc3,About how long has it been since you last saw a doctor for a wellness visit or check-up?,2.0,Within the last 2 years,response,51
+PhenX SDOH,pxahc3,About how long has it been since you last saw a doctor for a wellness visit or check-up?,3.0,Within the last 3 years,response,9
+PhenX SDOH,pxahc3,About how long has it been since you last saw a doctor for a wellness visit or check-up?,4.0,Within the last 5 years,response,3
+PhenX SDOH,pxahc3,About how long has it been since you last saw a doctor for a wellness visit or check-up?,5.0,Within the last 10 years,response,3
+PhenX SDOH,pxahc3,About how long has it been since you last saw a doctor for a wellness visit or check-up?,6.0,10 years ago or more,response,3
+PhenX SDOH,pxahc3,About how long has it been since you last saw a doctor for a wellness visit or check-up?,555.0,Not applicable / don't know,missing,3
+PhenX SDOH,pxahc4,Is there a place that you USUALLY go to if you are sick and need health care?,0.0,There is NO place,response,30
+PhenX SDOH,pxahc4,Is there a place that you USUALLY go to if you are sick and need health care?,1.0,Yes,response,1669
+PhenX SDOH,pxahc4,Is there a place that you USUALLY go to if you are sick and need health care?,2.0,There is MORE THAN ONE place,response,89
+PhenX SDOH,pxahc4,Is there a place that you USUALLY go to if you are sick and need health care?,555.0,Not applicable / don't know,missing,11
+PhenX SDOH,pxahc4,Is there a place that you USUALLY go to if you are sick and need health care?,777.0,Prefer not to say,missing,5
+PhenX SDOH,pxahc5,What kind of place is it / do you go to most often?,1.0,A doctor's office or health center,response,1847
+PhenX SDOH,pxahc5,What kind of place is it / do you go to most often?,2.0,"Walk-in clinic, urgent care center, or retail clinic",response,128
+PhenX SDOH,pxahc5,What kind of place is it / do you go to most often?,3.0,Emergency room,response,18
+PhenX SDOH,pxahc5,What kind of place is it / do you go to most often?,4.0,A VA Medical Center or VA outpatient clinic,response,21
+PhenX SDOH,pxahc5,What kind of place is it / do you go to most often?,5.0,Some other place,response,7
+PhenX SDOH,pxahc5,What kind of place is it / do you go to most often?,6.0,Does not go to one place most often,response,5
+PhenX SDOH,pxahc5,What kind of place is it / do you go to most often?,555.0,Not applicable / don't know,missing,1
+PhenX SDOH,pxahc5,What kind of place is it / do you go to most often?,777.0,Prefer not to say,missing,6
+PhenX SDOH,pxahc6,"During the past 12 months, how many times have you gone to a hospital emergency room?",0.0,None (0 visits),response,20
+PhenX SDOH,pxahc6,"During the past 12 months, how many times have you gone to a hospital emergency room?",1.0,1-10 times,response,10
+PhenX SDOH,pxahc7,"During the past 12 months, how many times have you gone to an urgent care center or retail clinic?",0.0,None (0 visits),response,1553
+PhenX SDOH,pxahc7,"During the past 12 months, how many times have you gone to an urgent care center or retail clinic?",1.0,1-10 times,response,497
+PhenX SDOH,pxahc7,"During the past 12 months, how many times have you gone to an urgent care center or retail clinic?",2.0,11-19 times,response,4
+PhenX SDOH,pxahc7,"During the past 12 months, how many times have you gone to an urgent care center or retail clinic?",3.0,20-29 times,response,1
+PhenX SDOH,pxahc7,"During the past 12 months, how many times have you gone to an urgent care center or retail clinic?",555.0,Not applicable / don't know,missing,3
+PhenX SDOH,pxahc7,"During the past 12 months, how many times have you gone to an urgent care center or retail clinic?",777.0,Prefer not to say,missing,5
+PhenX SDOH,pxahc8,"During the past 12 months, have you been hospitalized overnight?",0.0,No,response,1838
+PhenX SDOH,pxahc8,"During the past 12 months, have you been hospitalized overnight?",1.0,Yes,response,221
+PhenX SDOH,pxahc8,"During the past 12 months, have you been hospitalized overnight?",555.0,Not applicable / don't know,missing,2
+PhenX SDOH,pxahc8,"During the past 12 months, have you been hospitalized overnight?",777.0,Prefer not to say,missing,2
+PhenX SDOH,pxahc9,"During the past 12 months, have you DELAYED getting medical care because of the cost?",0.0,No,response,1922
+PhenX SDOH,pxahc9,"During the past 12 months, have you DELAYED getting medical care because of the cost?",1.0,Yes,response,129
+PhenX SDOH,pxahc9,"During the past 12 months, have you DELAYED getting medical care because of the cost?",555.0,Not applicable / don't know,missing,5
+PhenX SDOH,pxahc9,"During the past 12 months, have you DELAYED getting medical care because of the cost?",777.0,Prefer not to say,missing,7
+PhenX SDOH,pxdhc1,You are treated with less courtesy than other people.,1.0,Never,response,1395
+PhenX SDOH,pxdhc1,You are treated with less courtesy than other people.,2.0,Rarely,response,467
+PhenX SDOH,pxdhc1,You are treated with less courtesy than other people.,3.0,Sometimes,response,164
+PhenX SDOH,pxdhc1,You are treated with less courtesy than other people.,4.0,Most of the time,response,15
+PhenX SDOH,pxdhc1,You are treated with less courtesy than other people.,5.0,Always,response,9
+PhenX SDOH,pxdhc1,You are treated with less courtesy than other people.,777.0,Prefer not to say,missing,13
+PhenX SDOH,pxdhc2,You are treated with less respect than other people.,1.0,Never,response,1430
+PhenX SDOH,pxdhc2,You are treated with less respect than other people.,2.0,Rarely,response,459
+PhenX SDOH,pxdhc2,You are treated with less respect than other people.,3.0,Sometimes,response,142
+PhenX SDOH,pxdhc2,You are treated with less respect than other people.,4.0,Most of the time,response,12
+PhenX SDOH,pxdhc2,You are treated with less respect than other people.,5.0,Always,response,6
+PhenX SDOH,pxdhc2,You are treated with less respect than other people.,777.0,Prefer not to say,missing,14
+PhenX SDOH,pxdhc3,You receive poorer service than others.,1.0,Never,response,1464
+PhenX SDOH,pxdhc3,You receive poorer service than others.,2.0,Rarely,response,433
+PhenX SDOH,pxdhc3,You receive poorer service than others.,3.0,Sometimes,response,132
+PhenX SDOH,pxdhc3,You receive poorer service than others.,4.0,Most of the time,response,9
+PhenX SDOH,pxdhc3,You receive poorer service than others.,5.0,Always,response,7
+PhenX SDOH,pxdhc3,You receive poorer service than others.,777.0,Prefer not to say,missing,18
+PhenX SDOH,pxdhc4,A doctor or nurse acts as if he or she thinks you are not smart.,1.0,Never,response,1563
+PhenX SDOH,pxdhc4,A doctor or nurse acts as if he or she thinks you are not smart.,2.0,Rarely,response,325
+PhenX SDOH,pxdhc4,A doctor or nurse acts as if he or she thinks you are not smart.,3.0,Sometimes,response,139
+PhenX SDOH,pxdhc4,A doctor or nurse acts as if he or she thinks you are not smart.,4.0,Most of the time,response,16
+PhenX SDOH,pxdhc4,A doctor or nurse acts as if he or she thinks you are not smart.,5.0,Always,response,4
+PhenX SDOH,pxdhc4,A doctor or nurse acts as if he or she thinks you are not smart.,777.0,Prefer not to say,missing,16
+PhenX SDOH,pxdhc5,A doctor or nurse acts as if he or she is afraid of you.,1.0,Never,response,1901
+PhenX SDOH,pxdhc5,A doctor or nurse acts as if he or she is afraid of you.,2.0,Rarely,response,134
+PhenX SDOH,pxdhc5,A doctor or nurse acts as if he or she is afraid of you.,3.0,Sometimes,response,20
+PhenX SDOH,pxdhc5,A doctor or nurse acts as if he or she is afraid of you.,5.0,Always,response,1
+PhenX SDOH,pxdhc5,A doctor or nurse acts as if he or she is afraid of you.,777.0,Prefer not to say,missing,7
+PhenX SDOH,pxdhc6,A doctor or nurse acts as if he or she is better than you.,1.0,Never,response,1544
+PhenX SDOH,pxdhc6,A doctor or nurse acts as if he or she is better than you.,2.0,Rarely,response,342
+PhenX SDOH,pxdhc6,A doctor or nurse acts as if he or she is better than you.,3.0,Sometimes,response,145
+PhenX SDOH,pxdhc6,A doctor or nurse acts as if he or she is better than you.,4.0,Most of the time,response,16
+PhenX SDOH,pxdhc6,A doctor or nurse acts as if he or she is better than you.,5.0,Always,response,3
+PhenX SDOH,pxdhc6,A doctor or nurse acts as if he or she is better than you.,777.0,Prefer not to say,missing,13
+PhenX SDOH,pxdhc7,You feel like a doctor or nurse is not listening to what you were saying.,1.0,Never,response,1163
+PhenX SDOH,pxdhc7,You feel like a doctor or nurse is not listening to what you were saying.,2.0,Rarely,response,545
+PhenX SDOH,pxdhc7,You feel like a doctor or nurse is not listening to what you were saying.,3.0,Sometimes,response,293
+PhenX SDOH,pxdhc7,You feel like a doctor or nurse is not listening to what you were saying.,4.0,Most of the time,response,42
+PhenX SDOH,pxdhc7,You feel like a doctor or nurse is not listening to what you were saying.,5.0,Always,response,13
+PhenX SDOH,pxdhc7,You feel like a doctor or nurse is not listening to what you were saying.,777.0,Prefer not to say,missing,7
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,2.0,2nd grade,response,1
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,3.0,3rd grade,response,1
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,6.0,6th grade,response,1
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,7.0,7th grade,response,1
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,8.0,8th grade,response,6
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,9.0,9th grade,response,9
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,10.0,10th grade,response,12
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,11.0,11th grade,response,11
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,12.0,"12th grade, no diploma",response,20
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,13.0,High school graduate,response,120
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,14.0,GED or equivalent,response,29
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,15.0,"Some college, no degree",response,304
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,16.0,"Associate degree: occupational, technical, or vocational",response,140
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,17.0,Associate degree: academic,response,85
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,18.0,Bachelor's degree,response,617
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,19.0,Master's degree,response,440
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,20.0,"Professional school degree (MD, DDS, DVM, JD)",response,101
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,21.0,"Doctoral degree (PhD, EdD)",response,160
+PhenX SDOH,pxed1,What is the highest grade or level of school you have completed?,777.0,Prefer not to say,missing,5
+PhenX SDOH,pxep1,Is English your first language?,0.0,No,response,429
+PhenX SDOH,pxep1,Is English your first language?,1.0,Yes,response,1628
+PhenX SDOH,pxep1,Is English your first language?,777.0,Prefer not to say,missing,6
+PhenX SDOH,pxep2,Do you speak another language at home?,0.0,No,response,97
+PhenX SDOH,pxep2,Do you speak another language at home?,1.0,Yes,response,332
+PhenX SDOH,pxep3,How well do you speak English?,0.0,Not at all,response,2
+PhenX SDOH,pxep3,How well do you speak English?,1.0,Very well,response,174
+PhenX SDOH,pxep3,How well do you speak English?,2.0,Well,response,143
+PhenX SDOH,pxep3,How well do you speak English?,3.0,Not well,response,12
+PhenX SDOH,pxep3,How well do you speak English?,555.0,Not applicable / don't know,missing,1
+PhenX SDOH,pxhi1,What is your living situation today?,0.0,I do not have a steady place to live,response,15
+PhenX SDOH,pxhi1,What is your living situation today?,1.0,I have a steady place to live,response,1943
+PhenX SDOH,pxhi1,What is your living situation today?,2.0,"I have a place to live today, but I am worried about losing it",response,95
+PhenX SDOH,pxhi1,What is your living situation today?,777.0,Prefer not to say,missing,10
+PhenX SDOH,pxhi2,Do you have problems with any of the following where you live? (choose all that apply),1.0,"Pests such as bugs, ants, or mice",response,218
+PhenX SDOH,pxhi2,Do you have problems with any of the following where you live? (choose all that apply),2.0,Mold,response,103
+PhenX SDOH,pxhi2,Do you have problems with any of the following where you live? (choose all that apply),3.0,Lead paint or pipes,response,15
+PhenX SDOH,pxhi2,Do you have problems with any of the following where you live? (choose all that apply),4.0,Lack of heat,response,33
+PhenX SDOH,pxhi2,Do you have problems with any of the following where you live? (choose all that apply),5.0,Oven or stove not working,response,23
+PhenX SDOH,pxhi2,Do you have problems with any of the following where you live? (choose all that apply),6.0,Smoke detectors missing or not working,response,53
+PhenX SDOH,pxhi2,Do you have problems with any of the following where you live? (choose all that apply),7.0,Water leaks,response,63
+PhenX SDOH,pxhi2,Do you have problems with any of the following where you live? (choose all that apply),8.0,None of the above,response,1707
+PhenX SDOH,pxhi2,Do you have problems with any of the following where you live? (choose all that apply),777.0,Prefer not to say,missing,10
+PhenX SDOH,pxhic1,Covered by insurance through a current or former employer or union?,0.0,Not covered,response,715
+PhenX SDOH,pxhic1,Covered by insurance through a current or former employer or union?,1.0,Covered,response,1235
+PhenX SDOH,pxhic1,Covered by insurance through a current or former employer or union?,777.0,Prefer not to say,missing,39
+PhenX SDOH,pxhic1,Covered by insurance through a current or former employer or union?,999.0,Not sure,missing,74
+PhenX SDOH,pxhic2,Covered by insurance purchased directly from an insurance company?,0.0,Not covered,response,1298
+PhenX SDOH,pxhic2,Covered by insurance purchased directly from an insurance company?,1.0,Covered,response,570
+PhenX SDOH,pxhic2,Covered by insurance purchased directly from an insurance company?,777.0,Prefer not to say,missing,41
+PhenX SDOH,pxhic2,Covered by insurance purchased directly from an insurance company?,999.0,Not sure,missing,154
+PhenX SDOH,pxhic3,Covered by Medicare?,0.0,Not covered,response,1018
+PhenX SDOH,pxhic3,Covered by Medicare?,1.0,Covered,response,929
+PhenX SDOH,pxhic3,Covered by Medicare?,777.0,Prefer not to say,missing,30
+PhenX SDOH,pxhic3,Covered by Medicare?,999.0,Not sure,missing,86
+PhenX SDOH,pxhic4,"Covered by Medicaid, Medical Assistance, CHIP, or other state/government assistance?",0.0,Not covered,response,1598
+PhenX SDOH,pxhic4,"Covered by Medicaid, Medical Assistance, CHIP, or other state/government assistance?",1.0,Covered,response,331
+PhenX SDOH,pxhic4,"Covered by Medicaid, Medical Assistance, CHIP, or other state/government assistance?",777.0,Prefer not to say,missing,25
+PhenX SDOH,pxhic4,"Covered by Medicaid, Medical Assistance, CHIP, or other state/government assistance?",999.0,Not sure,missing,109
+PhenX SDOH,pxhic5,"Covered by TRICARE or other military health care, including VA?",0.0,Not covered,response,1826
+PhenX SDOH,pxhic5,"Covered by TRICARE or other military health care, including VA?",1.0,Covered,response,123
+PhenX SDOH,pxhic5,"Covered by TRICARE or other military health care, including VA?",777.0,Prefer not to say,missing,30
+PhenX SDOH,pxhic5,"Covered by TRICARE or other military health care, including VA?",999.0,Not sure,missing,84
+PhenX SDOH,pxhic7,Covered by any other type of health insurance or health coverage plan?,0.0,Not covered,response,1552
+PhenX SDOH,pxhic7,Covered by any other type of health insurance or health coverage plan?,1.0,Covered,response,350
+PhenX SDOH,pxhic7,Covered by any other type of health insurance or health coverage plan?,777.0,Prefer not to say,missing,29
+PhenX SDOH,pxhic7,Covered by any other type of health insurance or health coverage plan?,999.0,Not sure,missing,132
+PhenX SDOH,pxhic8,Does this mean you currently have no health insurance or health coverage plan?,0.0,,response,27
+PhenX SDOH,pxhic8,Does this mean you currently have no health insurance or health coverage plan?,1.0,,response,2
+PhenX SDOH,pxhic8,Does this mean you currently have no health insurance or health coverage plan?,777.0,Prefer not to say,missing,2
+PhenX SDOH,pxji1,"Thinking about the next 12 months, how likely is it that you will lose your job or be laid off?",0.0,Don't know,missing,995
+PhenX SDOH,pxji1,"Thinking about the next 12 months, how likely is it that you will lose your job or be laid off?",1.0,Very likely,response,49
+PhenX SDOH,pxji1,"Thinking about the next 12 months, how likely is it that you will lose your job or be laid off?",2.0,Fairly likely,response,34
+PhenX SDOH,pxji1,"Thinking about the next 12 months, how likely is it that you will lose your job or be laid off?",3.0,Not too likely,response,227
+PhenX SDOH,pxji1,"Thinking about the next 12 months, how likely is it that you will lose your job or be laid off?",4.0,Not at all likely,response,579
+PhenX SDOH,pxji1,"Thinking about the next 12 months, how likely is it that you will lose your job or be laid off?",5.0,Will be leaving the labor force (vol.),response,44
+PhenX SDOH,pxji1,"Thinking about the next 12 months, how likely is it that you will lose your job or be laid off?",555.0,Not applicable / don't know,missing,109
+PhenX SDOH,pxji1,"Thinking about the next 12 months, how likely is it that you will lose your job or be laid off?",777.0,Prefer not to say,missing,26
+PhenX SDOH,pxji2,How easy would it be to find a job with another employer with about the same income and benefits?,0.0,Don't know,missing,894
+PhenX SDOH,pxji2,How easy would it be to find a job with another employer with about the same income and benefits?,1.0,Very easy,response,157
+PhenX SDOH,pxji2,How easy would it be to find a job with another employer with about the same income and benefits?,2.0,Somewhat easy,response,395
+PhenX SDOH,pxji2,How easy would it be to find a job with another employer with about the same income and benefits?,3.0,Not easy at all,response,332
+PhenX SDOH,pxji2,How easy would it be to find a job with another employer with about the same income and benefits?,555.0,Not applicable / don't know,missing,263
+PhenX SDOH,pxji2,How easy would it be to find a job with another employer with about the same income and benefits?,777.0,Prefer not to say,missing,22
+PhenX SDOH,pxpa1,"In the last 12 months, have you delayed getting prescription medicines because of worry about the cost?",0.0,No,response,1832
+PhenX SDOH,pxpa1,"In the last 12 months, have you delayed getting prescription medicines because of worry about the cost?",1.0,Yes,response,216
+PhenX SDOH,pxpa1,"In the last 12 months, have you delayed getting prescription medicines because of worry about the cost?",555.0,Not applicable / don't know,missing,6
+PhenX SDOH,pxpa1,"In the last 12 months, have you delayed getting prescription medicines because of worry about the cost?",777.0,Prefer not to say,missing,9
+PhenX SDOH,pxpa2,Did any other person in your household delay getting prescription medicines because of cost?,0.0,No,response,1896
+PhenX SDOH,pxpa2,Did any other person in your household delay getting prescription medicines because of cost?,1.0,Yes,response,123
+PhenX SDOH,pxpa2,Did any other person in your household delay getting prescription medicines because of cost?,555.0,Not applicable / don't know,missing,34
+PhenX SDOH,pxpa2,Did any other person in your household delay getting prescription medicines because of cost?,777.0,Prefer not to say,missing,10
+PhenX SDOH,pxpa3,"In the last 12 months, did you need prescription medicines but not get them because you couldn't afford it?",0.0,No,response,1872
+PhenX SDOH,pxpa3,"In the last 12 months, did you need prescription medicines but not get them because you couldn't afford it?",1.0,Yes,response,170
+PhenX SDOH,pxpa3,"In the last 12 months, did you need prescription medicines but not get them because you couldn't afford it?",555.0,Not applicable / don't know,missing,5
+PhenX SDOH,pxpa3,"In the last 12 months, did you need prescription medicines but not get them because you couldn't afford it?",777.0,Prefer not to say,missing,16
+PhenX SDOH,pxpa4,"In the last 12 months, did anyone else in your household need prescription medicines but not get them because of cost?",0.0,No,response,1905
+PhenX SDOH,pxpa4,"In the last 12 months, did anyone else in your household need prescription medicines but not get them because of cost?",1.0,Yes,response,105
+PhenX SDOH,pxpa4,"In the last 12 months, did anyone else in your household need prescription medicines but not get them because of cost?",555.0,Not applicable / don't know,missing,33
+PhenX SDOH,pxpa4,"In the last 12 months, did anyone else in your household need prescription medicines but not get them because of cost?",777.0,Prefer not to say,missing,20
+PhenX food insecurity,food_insecurity_change_diet_frequency,How often did this happen? (follow-up to pxfi3),1.0,,response,55
+PhenX food insecurity,food_insecurity_change_diet_frequency,How often did this happen? (follow-up to pxfi3),2.0,,response,81
+PhenX food insecurity,food_insecurity_change_diet_frequency,How often did this happen? (follow-up to pxfi3),3.0,,response,36
+PhenX food insecurity,food_insecurity_change_diet_frequency,How often did this happen? (follow-up to pxfi3),555.0,Not applicable / don't know,missing,5
+PhenX food insecurity,food_insecurity_change_diet_frequency,How often did this happen? (follow-up to pxfi3),777.0,Prefer not to say,missing,2
+PhenX food insecurity,pxfi1,"The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more",0.0,Never true,response,1933
+PhenX food insecurity,pxfi1,"The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more",1.0,Often or sometimes true (a),response,63
+PhenX food insecurity,pxfi1,"The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more",2.0,Often or sometimes true (b),response,246
+PhenX food insecurity,pxfi1,"The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more",555.0,Not applicable / don't know,missing,21
+PhenX food insecurity,pxfi1,"The food that (I/we) bought just didn't last, and (I/we) didn't have money to get more",777.0,Prefer not to say,missing,17
+PhenX food insecurity,pxfi2,(I/we) couldn't afford to eat balanced meals,0.0,Never true,response,1881
+PhenX food insecurity,pxfi2,(I/we) couldn't afford to eat balanced meals,1.0,Often or sometimes true (a),response,77
+PhenX food insecurity,pxfi2,(I/we) couldn't afford to eat balanced meals,2.0,Often or sometimes true (b),response,287
+PhenX food insecurity,pxfi2,(I/we) couldn't afford to eat balanced meals,555.0,Not applicable / don't know,missing,21
+PhenX food insecurity,pxfi2,(I/we) couldn't afford to eat balanced meals,777.0,Prefer not to say,missing,14
+PhenX food insecurity,pxfi3,"In the last year, did you and/or other adults cut the size of meals or skip meals because there wasn't enough money for food?",0.0,No,response,2064
+PhenX food insecurity,pxfi3,"In the last year, did you and/or other adults cut the size of meals or skip meals because there wasn't enough money for food?",1.0,Yes,response,179
+PhenX food insecurity,pxfi3,"In the last year, did you and/or other adults cut the size of meals or skip meals because there wasn't enough money for food?",555.0,Not applicable / don't know,missing,21
+PhenX food insecurity,pxfi3,"In the last year, did you and/or other adults cut the size of meals or skip meals because there wasn't enough money for food?",777.0,Prefer not to say,missing,16
+PhenX food insecurity,pxfi4,"In the last 12 months, did you ever eat less than you felt you should because there wasn't enough money for food?",0.0,No,response,2072
+PhenX food insecurity,pxfi4,"In the last 12 months, did you ever eat less than you felt you should because there wasn't enough money for food?",1.0,Yes,response,171
+PhenX food insecurity,pxfi4,"In the last 12 months, did you ever eat less than you felt you should because there wasn't enough money for food?",555.0,Not applicable / don't know,missing,16
+PhenX food insecurity,pxfi4,"In the last 12 months, did you ever eat less than you felt you should because there wasn't enough money for food?",777.0,Prefer not to say,missing,21
+PhenX food insecurity,pxfi5,"In the last 12 months, were you ever hungry but didn't eat because there wasn't enough money for food?",0.0,No,response,2146
+PhenX food insecurity,pxfi5,"In the last 12 months, were you ever hungry but didn't eat because there wasn't enough money for food?",1.0,Yes,response,108
+PhenX food insecurity,pxfi5,"In the last 12 months, were you ever hungry but didn't eat because there wasn't enough money for food?",555.0,Not applicable / don't know,missing,10
+PhenX food insecurity,pxfi5,"In the last 12 months, were you ever hungry but didn't eat because there wasn't enough money for food?",777.0,Prefer not to say,missing,16

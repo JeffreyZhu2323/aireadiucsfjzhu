@@ -39,9 +39,9 @@ from pathlib import Path
 
 import pandas as pd
 
-ROOT = Path.home() / "aireadi"
-FULL_PATH = ROOT / "outputs" / "full_person_aggregates.csv"
-STREAM_MEANS_PATH = ROOT / "outputs" / "wearable_stream_means.csv"
+ROOT = Path(__file__).resolve().parents[1]
+FULL_PATH = ROOT / "outputs" / "cohort" / "full_person_aggregates.csv"
+STREAM_MEANS_PATH = ROOT / "outputs" / "cohort" / "wearable_stream_means.csv"
 FEATURES_PATH = ROOT / "outputs" / "eda_advanced" / "tables" / "master_patient_features.csv"
 ACTIVITY_MANIFEST = (
     ROOT

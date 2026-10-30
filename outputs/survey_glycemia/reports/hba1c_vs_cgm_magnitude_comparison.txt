@@ -1,0 +1,43 @@
+================================================================================================
+NAIVE FEATURE-LEVEL TEST (treats 44 features as independent -- it is wrong)
+================================================================================================
+  Wilcoxon signed-rank over 44 features: p = 1.79e-04
+  mean |rho|: HbA1c 0.0805 vs CGM 0.0635
+  shrinks under CGM: 32/44
+
+================================================================================================
+CLUSTER-AWARE: instrument is the unit of analysis
+================================================================================================
+                          n_features  mean_abs_hba1c  mean_abs_cgm  mean_d_rho  mean_d_z   ratio
+survey                                                                                          
+PhenX food insecurity              4         +0.1302       +0.0962     -0.0340   -0.0345 +0.7388
+PhenX SDOH                        20         +0.0713       +0.0487     -0.0226   -0.0228 +0.6830
+CES-D-10 depression                6         +0.0307       +0.0173     -0.0134   -0.0135 +0.5620
+Dietary questionnaire              5         +0.0727       +0.0626     -0.0100   -0.0101 +0.8620
+Diabetes self-care                 6         +0.1131       +0.1085     -0.0045   -0.0049 +0.9599
+PAID-5 diabetes distress           3         +0.1223       +0.1228     +0.0005   -0.0001 +1.0041
+
+  negative mean_d_rho = CGM correlation is weaker for that instrument
+
+--- scale: raw |rho| ---
+  mean difference across 6 instruments: -0.0140
+  exact cluster sign-flip permutation p = 0.0625  (floor for k=6 is 0.0312)
+  cluster bootstrap 95% CI: [-0.0237, -0.0055]  excludes zero: True
+  mixed model (1|instrument) on d_rho: estimate=-0.0164  SE=0.0050  95% CI [-0.0262, -0.0065]  p=0.0011
+
+--- scale: |Fisher z| ---
+  mean difference across 6 instruments: -0.0143
+  exact cluster sign-flip permutation p = 0.0312  (floor for k=6 is 0.0312)
+  cluster bootstrap 95% CI: [-0.0237, -0.0056]  excludes zero: True
+  mixed model (1|instrument) on d_z: estimate=-0.0167  SE=0.0050  95% CI [-0.0266, -0.0068]  p=0.0009
+
+================================================================================================
+READING
+================================================================================================
+  All six instruments point the same way, which is the substantive
+  result. With only six clusters the exact permutation test cannot
+  go below p=0.031 no matter how large the effect, so a 'significant'
+  verdict here is a statement about consistency of sign across
+  instruments, not about effect size.
+
+Wrote: /home/jeffreyzhu23/aireadi/outputs/survey_glycemia/hba1c_vs_cgm_magnitude_comparison.csv

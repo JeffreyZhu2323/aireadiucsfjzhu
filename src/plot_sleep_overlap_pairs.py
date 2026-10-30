@@ -16,8 +16,8 @@ from config import OUTDIR
 
 
 def main() -> None:
-    pair_path = OUTDIR / "sleep_overlap_pair_summary.csv"
-    rows_path = OUTDIR / "sleep_overlap_interval_rows.csv"
+    pair_path = OUTDIR / "archive" / "exploratory_2026-05-01" / "legacy_outputs" / "sleep_overlap_pair_summary.csv"
+    rows_path = OUTDIR / "archive" / "exploratory_2026-05-01" / "legacy_outputs" / "sleep_overlap_interval_rows.csv"
     if not pair_path.exists() or not rows_path.exists():
         raise FileNotFoundError(
             f"Missing {pair_path} or {rows_path}. Run: python3 src/sleep_overlap_deep_dive.py"
@@ -73,7 +73,7 @@ def main() -> None:
     )
     fig.text(0.5, 0.01, note, ha="center", va="bottom", fontsize=8, style="italic")
 
-    out = OUTDIR / "sleep_overlap_pairs_chart.png"
+    out = OUTDIR / "figures" / "sleep_overlap_pairs_chart.png"
     plt.savefig(out, dpi=150, bbox_inches="tight")
     plt.close()
     print(f"Wrote {out}")

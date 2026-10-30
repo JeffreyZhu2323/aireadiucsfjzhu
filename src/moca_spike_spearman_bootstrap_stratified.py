@@ -24,12 +24,12 @@ import pandas as pd
 from scipy.stats import bootstrap, spearmanr
 from statsmodels.stats.multitest import multipletests
 
-ROOT = Path.home() / "aireadi"
-DATA_PATH = ROOT / "outputs" / "full_person_aggregates.csv"
+ROOT = Path(__file__).resolve().parents[1]
+DATA_PATH = ROOT / "outputs" / "cohort" / "full_person_aggregates.csv"
 
-OUT_BY_DIABETES = ROOT / "outputs" / "moca_spike_spearman_bootstrap_by_diabetes.csv"
-OUT_BY_AGE = ROOT / "outputs" / "moca_spike_spearman_bootstrap_by_age.csv"
-OUT_BY_DIABETES_AGE = ROOT / "outputs" / "moca_spike_spearman_bootstrap_by_diabetes_age.csv"
+OUT_BY_DIABETES = ROOT / "outputs" / "cognition" / "moca_spike_spearman_bootstrap_by_diabetes.csv"
+OUT_BY_AGE = ROOT / "outputs" / "cognition" / "moca_spike_spearman_bootstrap_by_age.csv"
+OUT_BY_DIABETES_AGE = ROOT / "outputs" / "cognition" / "moca_spike_spearman_bootstrap_by_diabetes_age.csv"
 
 TARGET = "moca_score"
 FEATURES = [

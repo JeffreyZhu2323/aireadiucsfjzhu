@@ -29,11 +29,11 @@ import pandas as pd
 
 import diabetes_group_differences as base
 
-ROOT = Path.home() / "aireadi"
-GLUCOSE_RAW = ROOT / "outputs" / "glucose_raw.csv"
-FULL_PATH = ROOT / "outputs" / "full_person_aggregates.csv"
-OUT_OMNIBUS = ROOT / "outputs" / "diabetes_group_differences_wearable_plus_mean_cgm.csv"
-OUT_DUNN = ROOT / "outputs" / "diabetes_group_differences_wearable_plus_mean_cgm_dunn.csv"
+ROOT = Path(__file__).resolve().parents[1]
+GLUCOSE_RAW = ROOT / "outputs" / "glycemic_phenotype" / "glucose_raw.csv"
+FULL_PATH = ROOT / "outputs" / "cohort" / "full_person_aggregates.csv"
+OUT_OMNIBUS = ROOT / "outputs" / "group_differences" / "diabetes_group_differences_wearable_plus_mean_cgm.csv"
+OUT_DUNN = ROOT / "outputs" / "group_differences" / "diabetes_group_differences_wearable_plus_mean_cgm_dunn.csv"
 
 NEW_COL = "mean_cgm_overall_mg_dl"
 
@@ -77,7 +77,7 @@ def main() -> None:
 
     # Reuse base.run()'s body by temporarily swapping the module-level frame it reads from.
     orig_read_csv = pd.read_csv
-    tmp_path = ROOT / "outputs" / "_tmp_wearable_plus_mean_cgm_input.csv"
+    tmp_path = ROOT / "outputs" / "group_differences" / "_tmp_wearable_plus_mean_cgm_input.csv"
     df.to_csv(tmp_path, index=False)
     base.DATA_PATH = tmp_path
     try:

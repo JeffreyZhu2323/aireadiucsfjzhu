@@ -52,7 +52,7 @@ SHORT = {
 }
 
 OUT_PATH = (
-    Path.home() / "aireadi" / "outputs" / "moca_impairment_activity_bootstrap_by_diabetes.csv"
+    Path(__file__).resolve().parents[1] / "outputs" / "cognition" / "moca_impairment_activity_bootstrap_by_diabetes.csv"
 )
 
 

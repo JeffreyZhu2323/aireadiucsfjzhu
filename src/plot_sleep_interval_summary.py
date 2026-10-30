@@ -17,7 +17,7 @@ from config import OUTDIR
 
 
 def main() -> None:
-    path = OUTDIR / "sleep_interval_summary.csv"
+    path = OUTDIR / "archive" / "exploratory_2026-05-01" / "legacy_outputs" / "sleep_interval_summary.csv"
     if not path.exists():
         raise FileNotFoundError(
             f"Missing {path}. Run: python3 src/cadence_analysis.py (or main) to generate it."
@@ -81,7 +81,7 @@ def main() -> None:
         bbox=dict(boxstyle="round", facecolor="wheat", alpha=0.35),
     )
 
-    out = OUTDIR / "sleep_interval_summary_chart.png"
+    out = OUTDIR / "figures" / "sleep_interval_summary_chart.png"
     plt.savefig(out, dpi=150, bbox_inches="tight")
     plt.close()
     print(f"Wrote {out}")

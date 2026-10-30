@@ -25,7 +25,7 @@ from glucose_spike_detection import (
 )
 from spike_method_comparison import detect_interpolated_episodes
 
-RAW_PATH = Path.home() / "aireadi" / "outputs" / "glucose_raw.csv"
+RAW_PATH = Path(__file__).resolve().parents[1] / "outputs" / "glycemic_phenotype" / "glucose_raw.csv"
 THRESH = SPIKE_THRESHOLD_MG_DL
 GAP = MAX_GAP_MINUTES
 T0 = datetime(2023, 1, 1, tzinfo=timezone.utc)

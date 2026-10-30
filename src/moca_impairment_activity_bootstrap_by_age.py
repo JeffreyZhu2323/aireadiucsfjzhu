@@ -40,7 +40,7 @@ AGE = "meta_age"
 AGE_BINS = [40, 55, 70, 200]
 AGE_LABELS = ["40-54", "55-69", "70+"]
 
-OUT_PATH = Path.home() / "aireadi" / "outputs" / "moca_impairment_activity_bootstrap_by_age.csv"
+OUT_PATH = Path(__file__).resolve().parents[1] / "outputs" / "cognition" / "moca_impairment_activity_bootstrap_by_age.csv"
 
 
 def run() -> pd.DataFrame:

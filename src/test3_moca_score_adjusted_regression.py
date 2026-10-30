@@ -4,12 +4,12 @@ import pandas as pd
 import statsmodels.formula.api as smf
 
 
-ROOT = Path.home() / "aireadi"
+ROOT = Path(__file__).resolve().parents[1]
 FEATURES_PATH = ROOT / "outputs" / "eda_advanced" / "tables" / "master_patient_features.csv"
-SPIKE_PATH = ROOT / "outputs" / "spike_aggregates_by_person.csv"
+SPIKE_PATH = ROOT / "outputs" / "glycemic_phenotype" / "spike_aggregates_by_person.csv"
 
-COEF_OUT_PATH = ROOT / "outputs" / "moca_score_adjusted_regression_coefficients.csv"
-MODEL_OUT_PATH = ROOT / "outputs" / "moca_score_adjusted_regression_model_summary.csv"
+COEF_OUT_PATH = ROOT / "outputs" / "cognition" / "moca_score_adjusted_regression_coefficients.csv"
+MODEL_OUT_PATH = ROOT / "outputs" / "cognition" / "moca_score_adjusted_regression_model_summary.csv"
 
 
 def main() -> None:

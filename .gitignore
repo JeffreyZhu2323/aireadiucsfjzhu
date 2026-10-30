@@ -3,13 +3,19 @@
 __pycache__/
 *.pyc
 
-# Raw/incoming source data (immutable, huge, not reproducible from repo)
+# Raw/incoming source data (immutable, huge, not reproducible from repo).
+# data/raw/omop/ holds the five AI-READI OMOP tables; observation.csv alone is
+# 109 MB, which exceeds GitHub's 100 MB per-file limit. Re-download from FAIRhub
+# rather than committing -- see "Getting the data" in README.md.
 data/raw/
 data/incoming/
 
 # Official CGM cache (1.4GB; treated as immutable partner-supplied input, same as
 # data/raw/ -- no script in this repo regenerates it, see src/glucose_spike_detection.py)
-outputs/glucose_raw.csv
+outputs/glycemic_phenotype/glucose_raw.csv
+
+# Scratch file written by src/diabetes_group_differences_wearable_plus_mean_cgm.py
+outputs/group_differences/_tmp_*.csv
 
 # Backup files
 *.bak

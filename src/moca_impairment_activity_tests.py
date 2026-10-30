@@ -40,7 +40,7 @@ import pandas as pd
 from scipy.stats import mannwhitneyu
 from statsmodels.stats.multitest import multipletests
 
-ROOT = Path.home() / "aireadi"
+ROOT = Path(__file__).resolve().parents[1]
 FEATURES_PATH = ROOT / "outputs" / "eda_advanced" / "tables" / "master_patient_features.csv"
 ACTIVITY_MANIFEST = (
     ROOT
@@ -52,7 +52,7 @@ ACTIVITY_MANIFEST = (
     / "wearable_activity_monitor"
     / "manifest.tsv"
 )
-OUT_PATH = ROOT / "outputs" / "moca_impairment_activity_tests.csv"
+OUT_PATH = ROOT / "outputs" / "cognition" / "moca_impairment_activity_tests.csv"
 
 TARGET = "moca_score"
 CUTOFFS = [26, 24, 23]

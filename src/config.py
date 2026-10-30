@@ -4,18 +4,19 @@ import pandas as pd
 CONTAINER = "jeffreyzhuaireadi"
 UUID = "7bc8c89b-8457-41fc-917c-b5571ff90ea0"
 
-ROOT = Path.home() / "aireadi"
+ROOT = Path(__file__).resolve().parents[1]
 MAN = ROOT / "data" / "manifests" / CONTAINER / UUID / "dataset"
 OUTDIR = ROOT / "outputs"
 LOGDIR = ROOT / "logs"
 BASE_DIR = Path(__file__).resolve().parent.parent
 MANIFEST_DIR = BASE_DIR / "data/manifests/jeffreyzhuaireadi/7bc8c89b-8457-41fc-917c-b5571ff90ea0/dataset/"
 RAW_BASE = BASE_DIR / "data/raw/jeffreyzhuaireadi/jeffreyzhuaireadi/7bc8c89b-8457-41fc-917c-b5571ff90ea0/dataset/"
-OUT_GA = OUTDIR / "files_glucose_activity.txt"
-OUT_ENV = OUTDIR / "files_environment.txt"
+OUT_GA = OUTDIR / "manifest_lists" / "files_glucose_activity.txt"
+OUT_ENV = OUTDIR / "manifest_lists" / "files_environment.txt"
 
 OUTDIR.mkdir(parents=True, exist_ok=True)
 LOGDIR.mkdir(parents=True, exist_ok=True)
+OUT_GA.parent.mkdir(parents=True, exist_ok=True)
 
 
 def _norm(p: str) -> str:

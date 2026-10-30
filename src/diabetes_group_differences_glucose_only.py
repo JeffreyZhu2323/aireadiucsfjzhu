@@ -25,9 +25,9 @@ import pandas as pd
 
 import diabetes_group_differences as base
 
-ROOT = Path.home() / "aireadi"
-OUT_OMNIBUS = ROOT / "outputs" / "diabetes_group_differences_glucose_only.csv"
-OUT_DUNN = ROOT / "outputs" / "diabetes_group_differences_glucose_only_dunn.csv"
+ROOT = Path(__file__).resolve().parents[1]
+OUT_OMNIBUS = ROOT / "outputs" / "group_differences" / "diabetes_group_differences_glucose_only.csv"
+OUT_DUNN = ROOT / "outputs" / "group_differences" / "diabetes_group_differences_glucose_only_dunn.csv"
 
 base.METRICS = {
     m: ("glucose", d) for m, d in base.GLUCOSE_METRICS.items()

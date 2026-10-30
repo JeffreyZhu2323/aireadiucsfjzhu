@@ -32,7 +32,7 @@ import pandas as pd
 from scipy.stats import mannwhitneyu, pearsonr, spearmanr
 from statsmodels.stats.multitest import multipletests
 
-ROOT = Path.home() / "aireadi"
+ROOT = Path(__file__).resolve().parents[1]
 FEATURES_PATH = ROOT / "outputs" / "eda_advanced" / "tables" / "master_patient_features.csv"
 ACTIVITY_MANIFEST = (
     ROOT
@@ -44,8 +44,8 @@ ACTIVITY_MANIFEST = (
     / "wearable_activity_monitor"
     / "manifest.tsv"
 )
-CORR_OUT = ROOT / "outputs" / "moca_pa_correlation_by_age.csv"
-DIFF_OUT = ROOT / "outputs" / "moca_impairment_activity_by_age.csv"
+CORR_OUT = ROOT / "outputs" / "cognition" / "moca_pa_correlation_by_age.csv"
+DIFF_OUT = ROOT / "outputs" / "cognition" / "moca_impairment_activity_by_age.csv"
 
 TARGET = "moca_score"
 AGE = "meta_age"

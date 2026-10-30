@@ -47,7 +47,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-ROOT = Path.home() / "aireadi"
+ROOT = Path(__file__).resolve().parents[1]
 WAM = (
     ROOT
     / "data"
@@ -58,7 +58,7 @@ WAM = (
     / "dataset"
     / "wearable_activity_monitor"
 )
-OUT_PATH = ROOT / "outputs" / "wearable_stream_means.csv"
+OUT_PATH = ROOT / "outputs" / "cohort" / "wearable_stream_means.csv"
 
 VALUE_RE = re.compile(rb'"value":\s*(-?\d+(?:\.\d+)?)')
 

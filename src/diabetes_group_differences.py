@@ -43,10 +43,10 @@ import pandas as pd
 from scipy.stats import kruskal, norm, rankdata
 from statsmodels.stats.multitest import multipletests
 
-ROOT = Path.home() / "aireadi"
-DATA_PATH = ROOT / "outputs" / "full_person_aggregates.csv"
-OUT_OMNIBUS = ROOT / "outputs" / "diabetes_group_differences.csv"
-OUT_DUNN = ROOT / "outputs" / "diabetes_group_differences_dunn.csv"
+ROOT = Path(__file__).resolve().parents[1]
+DATA_PATH = ROOT / "outputs" / "cohort" / "full_person_aggregates.csv"
+OUT_OMNIBUS = ROOT / "outputs" / "group_differences" / "diabetes_group_differences.csv"
+OUT_DUNN = ROOT / "outputs" / "group_differences" / "diabetes_group_differences_dunn.csv"
 
 GROUP_COL = "meta_study_group"
 

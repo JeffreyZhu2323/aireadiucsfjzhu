@@ -3,14 +3,14 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta
 from pathlib import Path
 
-OUTDIR = Path.home() / "aireadi" / "outputs"
-RAW_PATH = OUTDIR / "glucose_raw.csv"
-POINT_PERSON_PATH = OUTDIR / "spike_aggregates_by_person.csv"
-INTERP_SPIKES_PATH = OUTDIR / "glucose_spikes_interpolated.csv"
-INTERP_SPIKES_MIN10_PATH = OUTDIR / "glucose_spikes_interpolated_min10.csv"
-INTERP_PERSON_PATH = OUTDIR / "spike_aggregates_by_person_interpolated.csv"
-INTERP_PERSON_MIN10_PATH = OUTDIR / "spike_aggregates_by_person_interpolated_min10.csv"
-METHOD_COMPARE_PATH = OUTDIR / "spike_aggregate_method_comparison.csv"
+OUTDIR = Path(__file__).resolve().parents[1] / "outputs"
+RAW_PATH = OUTDIR / "glycemic_phenotype" / "glucose_raw.csv"
+POINT_PERSON_PATH = OUTDIR / "glycemic_phenotype" / "spike_aggregates_by_person.csv"
+INTERP_SPIKES_PATH = OUTDIR / "glycemic_phenotype" / "glucose_spikes_interpolated.csv"
+INTERP_SPIKES_MIN10_PATH = OUTDIR / "glycemic_phenotype" / "glucose_spikes_interpolated_min10.csv"
+INTERP_PERSON_PATH = OUTDIR / "glycemic_phenotype" / "spike_aggregates_by_person_interpolated.csv"
+INTERP_PERSON_MIN10_PATH = OUTDIR / "glycemic_phenotype" / "spike_aggregates_by_person_interpolated_min10.csv"
+METHOD_COMPARE_PATH = OUTDIR / "glycemic_phenotype" / "spike_aggregate_method_comparison.csv"
 
 SPIKE_THRESHOLD_MG_DL = 140.0
 MIN_DURATION_MINUTES = 10.0

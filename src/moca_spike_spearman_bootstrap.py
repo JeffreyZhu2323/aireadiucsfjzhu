@@ -26,9 +26,9 @@ import pandas as pd
 from scipy.stats import bootstrap, spearmanr
 from statsmodels.stats.multitest import multipletests
 
-ROOT = Path.home() / "aireadi"
-DATA_PATH = ROOT / "outputs" / "full_person_aggregates.csv"
-OUT_PATH = ROOT / "outputs" / "moca_spike_spearman_bootstrap.csv"
+ROOT = Path(__file__).resolve().parents[1]
+DATA_PATH = ROOT / "outputs" / "cohort" / "full_person_aggregates.csv"
+OUT_PATH = ROOT / "outputs" / "cognition" / "moca_spike_spearman_bootstrap.csv"
 
 TARGET = "moca_score"
 FEATURES = [

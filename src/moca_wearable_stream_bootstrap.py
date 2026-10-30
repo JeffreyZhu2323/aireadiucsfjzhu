@@ -35,14 +35,14 @@ import pandas as pd
 from scipy.stats import bootstrap, spearmanr
 from statsmodels.stats.multitest import multipletests
 
-ROOT = Path.home() / "aireadi"
-MEANS_PATH = ROOT / "outputs" / "wearable_stream_means.csv"
+ROOT = Path(__file__).resolve().parents[1]
+MEANS_PATH = ROOT / "outputs" / "cohort" / "wearable_stream_means.csv"
 FEATURES_PATH = ROOT / "outputs" / "eda_advanced" / "tables" / "master_patient_features.csv"
 
-OUT_OVERALL = ROOT / "outputs" / "moca_wearable_stream_bootstrap.csv"
-OUT_BY_DIABETES = ROOT / "outputs" / "moca_wearable_stream_bootstrap_by_diabetes.csv"
-OUT_BY_AGE = ROOT / "outputs" / "moca_wearable_stream_bootstrap_by_age.csv"
-OUT_BY_DIABETES_AGE = ROOT / "outputs" / "moca_wearable_stream_bootstrap_by_diabetes_age.csv"
+OUT_OVERALL = ROOT / "outputs" / "cognition" / "moca_wearable_stream_bootstrap.csv"
+OUT_BY_DIABETES = ROOT / "outputs" / "cognition" / "moca_wearable_stream_bootstrap_by_diabetes.csv"
+OUT_BY_AGE = ROOT / "outputs" / "cognition" / "moca_wearable_stream_bootstrap_by_age.csv"
+OUT_BY_DIABETES_AGE = ROOT / "outputs" / "cognition" / "moca_wearable_stream_bootstrap_by_diabetes_age.csv"
 
 TARGET = "moca_score"
 FEATURES = [

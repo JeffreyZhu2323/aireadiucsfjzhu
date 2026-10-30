@@ -31,12 +31,12 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-ROOT = Path.home() / "aireadi"
-GLUCOSE_RAW = ROOT / "outputs" / "glucose_raw.csv"
-PERSON_META = ROOT / "outputs" / "full_person_aggregates.csv"
+ROOT = Path(__file__).resolve().parents[1]
+GLUCOSE_RAW = ROOT / "outputs" / "glycemic_phenotype" / "glucose_raw.csv"
+PERSON_META = ROOT / "outputs" / "cohort" / "full_person_aggregates.csv"
 
-PERSON_OUT = ROOT / "outputs" / "glucose_summary_person_level.csv"
-READING_OUT = ROOT / "outputs" / "glucose_summary_reading_level.csv"
+PERSON_OUT = ROOT / "outputs" / "glycemic_phenotype" / "glucose_summary_person_level.csv"
+READING_OUT = ROOT / "outputs" / "glycemic_phenotype" / "glucose_summary_reading_level.csv"
 
 AGE = "meta_age"
 AGE_BINS = [40, 55, 70, 200]

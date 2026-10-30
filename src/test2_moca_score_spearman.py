@@ -5,9 +5,9 @@ from scipy.stats import spearmanr
 from statsmodels.stats.multitest import multipletests
 
 
-ROOT = Path.home() / "aireadi"
+ROOT = Path(__file__).resolve().parents[1]
 FEATURES_PATH = ROOT / "outputs" / "eda_advanced" / "tables" / "master_patient_features.csv"
-OUT_PATH = ROOT / "outputs" / "moca_score_spearman_results.csv"
+OUT_PATH = ROOT / "outputs" / "cognition" / "moca_score_spearman_results.csv"
 
 TARGET = "moca_score"
 PREDICTORS = [

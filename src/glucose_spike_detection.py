@@ -2,10 +2,10 @@ import pandas as pd
 
 from config import OUTDIR
 
-CACHE_PATH = OUTDIR / "glucose_raw.csv"
-SPIKES_PATH = OUTDIR / "glucose_spikes.csv"
-PERSON_AGG_PATH = OUTDIR / "spike_aggregates_by_person.csv"
-DAILY_PATH = OUTDIR / "spike_daily_by_cgm_day.csv"
+CACHE_PATH = OUTDIR / "glycemic_phenotype" / "glucose_raw.csv"
+SPIKES_PATH = OUTDIR / "glycemic_phenotype" / "glucose_spikes.csv"
+PERSON_AGG_PATH = OUTDIR / "glycemic_phenotype" / "spike_aggregates_by_person.csv"
+DAILY_PATH = OUTDIR / "glycemic_phenotype" / "spike_daily_by_cgm_day.csv"
 SPIKE_THRESHOLD_MG_DL = 140.0
 # A single sub-threshold reading sandwiched between two above-threshold
 # readings is folded into the spike (tolerance = 1 dip reading), but only
