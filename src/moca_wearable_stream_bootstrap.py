@@ -3,7 +3,7 @@ Spearman correlation between MoCA score and the person-level MEAN of the five
 non-physical-activity wearable streams, each with a bootstrap 95% CI (BCa),
 plus Benjamini-Hochberg FDR-adjusted p-values.
 
-Features (person-level means from outputs/wearable_stream_means.csv):
+Features (person-level means from outputs/cohort/wearable_stream_means.csv):
   - mean_heartrate_bpm
   - mean_oxygen_saturation_pct
   - mean_stress_level

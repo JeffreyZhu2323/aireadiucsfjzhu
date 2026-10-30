@@ -15,7 +15,7 @@ MAX_GAP_MINUTES = 10.0
 
 
 def load_glucose_raw_cache() -> pd.DataFrame:
-    """Read the existing official CGM cache from outputs/glucose_raw.csv."""
+    """Read the existing official CGM cache from outputs/glycemic_phenotype/glucose_raw.csv."""
     if not CACHE_PATH.exists():
         raise FileNotFoundError(
             f"Missing {CACHE_PATH}. This repo now treats partner outputs as official."

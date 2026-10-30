@@ -316,6 +316,22 @@ Read the physiology rows left to right: healthy and pre-diabetes are generally
 indistinguishable and the separation appears once medication begins. Sleep is
 the weakest — only the two healthy-versus-medicated contrasts survive.
 
+Partner-supplied bootstrap contrasts for mean glucose agree with the Dunn
+results and give the differences on the original scale
+(`outputs/eda_advanced/tables/bootstrap_diff_mean_glucose.csv`, 2,000 resamples):
+
+| Contrast | mean difference | 95% CI |
+|---|---:|---|
+| oral med − insulin | -31.2 mg/dL | [-38.9, -23.8] |
+| oral med − healthy | +30.3 mg/dL | [+27.1, +33.6] |
+| oral med − pre-diabetes | +22.5 mg/dL | [+18.8, +26.3] |
+| insulin − healthy | +61.6 mg/dL | [+54.5, +68.5] |
+| insulin − pre-diabetes | +53.8 mg/dL | [+46.4, +61.4] |
+| healthy − pre-diabetes | -7.8 mg/dL | [-10.2, -5.6] |
+
+Every glucose contrast excludes zero, including healthy versus pre-diabetes
+(−7.8 mg/dL), so the four groups are separable on glucose at every step.
+
 One non-monotonic result needs careful wording. Spike **frequency** is highest in
 the pre-diabetes and oral-medication groups and **lowest in the insulin-dependent
 group** (2.82/day versus 3.91 for oral medication, Dunn z = 7.13,
@@ -476,6 +492,42 @@ are significant at MoCA < 26 only.
 Stratified, just two cells survive: `physical_activity_num_days` in the 55–69
 band (rho = +0.092, q = 0.030, n = 930) and in 55–69 oral-medication
 participants (rho = +0.219, q = 6.9e-04, n = 304).
+
+MoCA by study group, which is Table 1 material
+(`outputs/eda_advanced/tables/moca_descriptive_stats.csv`):
+
+| Study group | n | mean MoCA | SD | median | IQR | min |
+|---|---:|---:|---:|---:|---|---:|
+| healthy | 768 | 26.14 | 2.79 | 27 | 25–28 | 13 |
+| pre-diabetes | 554 | 25.88 | 3.07 | 26 | 24–28 | 11 |
+| oral med | 679 | 25.36 | 3.20 | 26 | 23–28 | 9 |
+| insulin | 253 | 24.21 | 3.95 | 25 | 22–27 | 6 |
+
+And the pairwise bootstrap contrasts
+(`outputs/eda_advanced/tables/bootstrap_diff_moca_score.csv`, 2,000 resamples):
+
+| Contrast | mean difference | 95% CI |
+|---|---:|---|
+| oral med − insulin | +1.15 points | [+0.61, +1.68] |
+| oral med − healthy | -0.78 points | [-1.09, -0.48] |
+| oral med − pre-diabetes | -0.52 points | [-0.88, -0.18] |
+| insulin − healthy | -1.94 points | [-2.46, -1.43] |
+| insulin − pre-diabetes | -1.67 points | [-2.22, -1.12] |
+| healthy − pre-diabetes | +0.27 points | [-0.05, +0.60]  ← **null** |
+
+Cognition separates every pair of groups **except healthy versus pre-diabetes**,
+which is the one contrast whose CI includes zero — the same place the
+physiological measures in finding 4 also fail to separate. Insulin-dependent
+participants score 1.94 MoCA points below healthy.
+
+Be careful with these three tables: they come from the partner's
+`master_patient_features.csv`, not `full_person_aggregates.csv`. That table
+holds 2,265 participants to the master table's 2,245 — the 2,245 are a strict
+subset, so there are exactly 20 extra participants, which is why the group
+counts differ (768 healthy here versus 761). The 20 extras have no CGM data and
+so were dropped when the master table was built. Reconcile before quoting these
+numbers alongside the others, or recompute the three tables from
+`full_person_aggregates.csv` to put everything on one denominator.
 
 Note that MoCA is **cross-sectional**: 2,254 participants have a MoCA score and
 **none has a repeat test**, so no within-person cognitive change can be analyzed.

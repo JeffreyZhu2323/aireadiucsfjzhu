@@ -1,5 +1,5 @@
 """
-Add per-person CGM range features to outputs/full_person_aggregates.csv.
+Add per-person CGM range features to outputs/cohort/full_person_aggregates.csv.
 
 Readings are classified into five mutually exclusive glycaemic ranges:
 
@@ -72,7 +72,7 @@ severe hypoglycaemia and severe hyperglycaemia respectively.
 
 Inserted after days_tracked so the CGM-derived block stays contiguous.
 
-Overwrites outputs/full_person_aggregates.csv in place.
+Overwrites outputs/cohort/full_person_aggregates.csv in place.
 
 Run from repo root:
     .venv/bin/python src/add_cgm_ranges_to_full_person_aggregates.py

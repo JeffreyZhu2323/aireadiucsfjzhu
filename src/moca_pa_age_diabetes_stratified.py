@@ -11,14 +11,14 @@ Within each (age band x diabetes group) cell we run, independently:
 
   PART A -- Spearman (primary) + Pearson correlation of MoCA vs PA metrics,
             FDR-BH corrected across metrics within the cell.
-            Output: outputs/moca_pa_correlation_by_age_diabetes.csv
+            Output: outputs/cognition/moca_pa_correlation_by_age_diabetes.csv
 
   PART B -- impaired (moca < cutoff) vs unimpaired Mann-Whitney U for
             total_movement, physical_activity_num_days,
             average_active_calories_kcal, average_daily_activity
             at cutoffs 26 / 24 / 23 ; FDR-BH across the 4 metrics within
             each (cell, cutoff).
-            Output: outputs/moca_impairment_activity_by_age_diabetes.csv
+            Output: outputs/cognition/moca_impairment_activity_by_age_diabetes.csv
 
 NOTE: cross-stratifying fragments the sample (12 cells); the impaired-vs-unimpaired
 tests in particular are underpowered (small impaired n at strict cutoffs). Cells

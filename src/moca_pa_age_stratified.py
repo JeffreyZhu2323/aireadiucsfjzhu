@@ -7,7 +7,7 @@ Within each age stratum (40-54, 55-69, 70+) we run, independently:
     * Spearman rho + p (primary, nonparametric)
     * Pearson r + p (secondary)
     * Benjamini-Hochberg FDR correction across metrics within the stratum
-    Output: outputs/moca_pa_correlation_by_age.csv
+    Output: outputs/cognition/moca_pa_correlation_by_age.csv
 
   PART B -- impaired vs unimpaired group differences (Mann-Whitney U)
     cutoffs 26 / 24 / 23 ; impaired = moca_score < cutoff
@@ -15,7 +15,7 @@ Within each age stratum (40-54, 55-69, 70+) we run, independently:
              average_active_calories_kcal, average_daily_activity
     * group medians, Mann-Whitney U, two-sided p, rank-biserial effect size
     * FDR-BH correction across the 4 metrics within each (stratum, cutoff)
-    Output: outputs/moca_impairment_activity_by_age.csv
+    Output: outputs/cognition/moca_impairment_activity_by_age.csv
 
 Stratifying by age removes age as a confounder by analysing within
 age-homogeneous subgroups (rather than adjusting for it in a model).

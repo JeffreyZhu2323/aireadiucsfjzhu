@@ -1,5 +1,5 @@
 """
-Add mean_cgm_overall_mg_dl to outputs/full_person_aggregates.csv: each person's
+Add mean_cgm_overall_mg_dl to outputs/cohort/full_person_aggregates.csv: each person's
 mean glucose across ALL CGM readings (not just readings inside a detected
 spike episode). Cleaning matches src/glucose_spike_detection.py and
 src/glucose_summary_stratified.py: Dexcom "Low"/"High" sentinel strings are
@@ -20,7 +20,7 @@ so the range means reconstruct this column exactly.
 
 Inserted into the glucose block, right after avg_cgm_per_spike_mg_dl.
 
-Overwrites outputs/full_person_aggregates.csv in place.
+Overwrites outputs/cohort/full_person_aggregates.csv in place.
 
 Run from repo root:
     .venv/bin/python src/add_mean_cgm_overall_to_full_person_aggregates.py

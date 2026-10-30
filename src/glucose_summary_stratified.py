@@ -9,12 +9,12 @@ Two levels of summary are reported for each stratum:
       sd, median, min, max, quartiles) are computed across participants.
       This is the analysis-ready number: every participant counts once,
       regardless of how many CGM readings they happened to have.
-      Output: outputs/glucose_summary_person_level.csv
+      Output: outputs/glycemic_phenotype/glucose_summary_person_level.csv
 
   READING-LEVEL (pooled) -- all individual CGM readings in the stratum are
       pooled and summarized directly. Participants with more readings
       contribute more to this number.
-      Output: outputs/glucose_summary_reading_level.csv
+      Output: outputs/glycemic_phenotype/glucose_summary_reading_level.csv
 
 Age bands and diabetes group labels follow the convention used elsewhere in
 this repo (src/moca_pa_age_diabetes_stratified.py):

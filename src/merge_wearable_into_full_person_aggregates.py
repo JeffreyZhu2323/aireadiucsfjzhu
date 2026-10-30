@@ -2,7 +2,7 @@
 Merge wearable activity metrics into the person-level glucose aggregate table.
 
 Starts from the existing per-person glucose-spike aggregate table
-(outputs/full_person_aggregates.csv: one row per person_id, with glucose-spike
+(outputs/cohort/full_person_aggregates.csv: one row per person_id, with glucose-spike
 aggregates + moca_score + study-group/age meta) and left-merges the wearable
 activity metrics onto person_id, producing a single combined per-person table.
 
@@ -27,7 +27,7 @@ Wearable metrics merged in (all on person_id):
 Note: physical_activity_num_days and the *_n_valid / *_n_nights coverage-count
 columns are intentionally excluded.
 
-Overwrites outputs/full_person_aggregates.csv in place.
+Overwrites outputs/cohort/full_person_aggregates.csv in place.
 
 Run from repo root:
     .venv/bin/python src/merge_wearable_into_full_person_aggregates.py

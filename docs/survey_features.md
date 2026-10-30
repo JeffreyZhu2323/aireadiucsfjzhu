@@ -18,9 +18,9 @@ before re-merging, so it can be re-run safely.
 
 | File | Contents | Shape |
 |---|---|---|
-| `outputs/full_person_aggregates.csv` | **46 survey feature columns appended** (scale scores, domain scores, key categoricals). Updated in place; the survey block is inserted after `moca_score`, before `meta_study_group`. | 2245 × 67 (was 2245 × 21) |
-| `outputs/survey_items_by_person.csv` | One row per person, one column per individual survey item, sentinel codes cleaned to blank. Plus `*_label` columns for nominal items and the expanded housing multi-select flags. | 2280 × 97 |
-| `outputs/survey_codebook.csv` | Tidy codebook: one row per (item, response code) with survey name, full item text, value label, whether the code is a response or a missing-data sentinel, and the observed respondent count. | 359 × 7 |
+| `outputs/cohort/full_person_aggregates.csv` | **46 survey feature columns appended** (scale scores, domain scores, key categoricals). Updated in place; the survey block is inserted after `moca_score`, before `meta_study_group`. | 2245 × 67 (was 2245 × 21) |
+| `outputs/cohort/survey_items_by_person.csv` | One row per person, one column per individual survey item, sentinel codes cleaned to blank. Plus `*_label` columns for nominal items and the expanded housing multi-select flags. | 2280 × 97 |
+| `outputs/cohort/survey_codebook.csv` | Tidy codebook: one row per (item, response code) with survey name, full item text, value label, whether the code is a response or a missing-data sentinel, and the observed respondent count. | 359 × 7 |
 | `src/survey_codebook.py` | Source of truth for item membership, item text, and every code → label map. Imported by the extraction script. | — |
 | `src/add_surveys_to_full_person_aggregates.py` | The extraction itself. | — |
 
@@ -258,7 +258,7 @@ SDOH work and is usually better powered than any individual sparse flag.
 ## 6. How the code → label mappings were established
 
 No OMOP `concept` table ships with this export, so mappings were recovered from
-the survey PDFs in `survey descriptions/` combined with the
+the survey PDFs in `docs/survey_instruments/` combined with the
 `observation.value_as_concept_id` column:
 
 1. **AI-READI local concept ids (`2005200xxx`) were assigned in survey display
@@ -280,7 +280,7 @@ the survey PDFs in `survey descriptions/` combined with the
    `years_of_education` item.
 
 The complete resulting map, with observed response counts, is in
-`outputs/survey_codebook.csv`.
+`outputs/cohort/survey_codebook.csv`.
 
 ### Mappings that could not be fully verified
 

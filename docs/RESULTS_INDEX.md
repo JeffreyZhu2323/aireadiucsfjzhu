@@ -103,11 +103,32 @@ plotting scripts read summaries that now live in
 `outputs/archive/exploratory_2026-05-01/legacy_outputs/`, so regenerate from
 there rather than from `outputs/` directly.
 
-## Directories that are not paper results
+## eda_advanced/ — partner-supplied
 
-- `eda_advanced/` — partner-supplied EDA. `tables/master_patient_features.csv`
-  is a required input to every MoCA analysis but was produced outside this repo;
-  see the provenance warning in `README.md`.
+Produced outside this repo by `compiler_eda_advanced.py`, which is **not
+committed here**. Three of these files supply tables in `README.md` finding 4
+and finding 5, and `master_patient_features.csv` is a required input to every
+MoCA analysis — so this directory is load-bearing despite not being
+reproducible. See the provenance warning in `README.md`.
+
+| File | Shape | Contents |
+|---|---|---|
+| `tables/master_patient_features.csv` | 2265 × 20 | **Required input** to all MoCA analyses: movement, MoCA and subscores, study group, age. |
+| `tables/moca_descriptive_stats.csv` | 4 × 9 | MoCA mean/SD/quartiles per study group. Table 1 material. |
+| `tables/bootstrap_diff_moca_score.csv` | 6 × 5 | Pairwise bootstrap mean MoCA differences by group, 2,000 resamples. |
+| `tables/bootstrap_diff_mean_glucose.csv` | 6 × 5 | Same for mean glucose, in mg/dL. |
+| `tables/moca_longitudinal.csv` | 2265 × 6 | Per-participant MoCA plus subscores. |
+| `reports/moca_longitudinal_summary.txt` | — | Confirms 2,254 participants have MoCA and **0 have a repeat test**. |
+| `tables/all_patients_5min_summary.csv` | 2265 × 44 | Per-participant summaries aggregated from the 5-minute cadence streams. |
+| `tables/all_patients_hourly_summary.csv` | 1 × 33 | Hourly equivalent, but only a single row — effectively empty, do not use. |
+| `reports/bootstrap_diff_*.txt` | — | Text versions of the two bootstrap tables. |
+| `reports/walkthrough.md` | — | Partner narrative. Contains absolute paths from the authoring machine and age bands (<40, 40–55, >55) that do **not** match the production analyses. |
+| `figures/stratified_cognition.png` | — | MoCA by age band and diabetes class. Uses the mismatched age bands above. |
+| `figures/correlation_heatmap.png` | — | Spearman block for MoCA, activity and sleep. |
+| `figures/moca_subcategories_correlation.png` | — | MoCA subscore correlations. |
+| `figures/diabetes_class_balance.png` | — | Group sizes. |
+
+## Directories that are not paper results
 - `archive/exploratory_2026-05-01/` — exploratory work superseded on 2026-05-01,
   retained for provenance. `archive_actions.json` records what was moved and why.
 - `manifest_lists/` — raw file path listings from `src/config.py`, a one-off

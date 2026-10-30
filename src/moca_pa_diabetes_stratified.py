@@ -13,7 +13,7 @@ Within each diabetes group we run, independently:
   PART A -- numerical correlation between MoCA score and physical-activity metrics
     * Spearman rho + p (primary), Pearson r + p (secondary)
     * Benjamini-Hochberg FDR correction across metrics within the group
-    Output: outputs/moca_pa_correlation_by_diabetes.csv
+    Output: outputs/cognition/moca_pa_correlation_by_diabetes.csv
 
   PART B -- impaired vs unimpaired group differences (Mann-Whitney U)
     cutoffs 26 / 24 / 23 ; impaired = moca_score < cutoff
@@ -21,7 +21,7 @@ Within each diabetes group we run, independently:
              average_active_calories_kcal, average_daily_activity
     * group medians, Mann-Whitney U, two-sided p, rank-biserial effect size
     * FDR-BH correction across the 4 metrics within each (group, cutoff)
-    Output: outputs/moca_impairment_activity_by_diabetes.csv
+    Output: outputs/cognition/moca_impairment_activity_by_diabetes.csv
 
 Run from repo root: .venv/bin/python src/moca_pa_diabetes_stratified.py
 """

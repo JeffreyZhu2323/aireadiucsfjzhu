@@ -6,8 +6,8 @@ night_movement, day_movement -- these are totals/exposure-driven, not means).
 See diabetes_group_differences.py for full methodology notes.
 
 Outputs:
-  outputs/diabetes_group_differences_means_only.csv
-  outputs/diabetes_group_differences_means_only_dunn.csv
+  outputs/group_differences/diabetes_group_differences_means_only.csv
+  outputs/group_differences/diabetes_group_differences_means_only_dunn.csv
 
 Run from repo root:
     .venv/bin/python src/diabetes_group_differences_means_only.py

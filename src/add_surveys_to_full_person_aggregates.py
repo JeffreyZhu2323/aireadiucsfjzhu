@@ -1,6 +1,6 @@
 """
 Extract numeric and categorical features from the five participant surveys in
-observation.csv and add them to outputs/full_person_aggregates.csv.
+observation.csv and add them to outputs/cohort/full_person_aggregates.csv.
 
 Surveys covered (item membership and code -> label maps live in
 src/survey_codebook.py):
@@ -29,11 +29,11 @@ full item count; otherwise NaN. For the 10-item CES-D-10 that rule permits at
 most 2 missing items, matching the instrument's own scoring instruction.
 
 Writes three files:
-  * outputs/full_person_aggregates.csv     updated in place, survey block
+  * outputs/cohort/full_person_aggregates.csv     updated in place, survey block
                                            inserted after moca_score
-  * outputs/survey_items_by_person.csv     one row per person, one column per
+  * outputs/cohort/survey_items_by_person.csv     one row per person, one column per
                                            survey item (cleaned codes)
-  * outputs/survey_codebook.csv            tidy code -> label codebook with
+  * outputs/cohort/survey_codebook.csv            tidy code -> label codebook with
                                            observed response counts
 
 Run from repo root:

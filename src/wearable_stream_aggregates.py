@@ -31,7 +31,7 @@ Point-series parsing is done with a regex over the raw bytes (each record has
 exactly one `"value": <number>`), which is validated to be identical to a full
 json.load but far faster over ~31 GB of files.
 
-Output: outputs/wearable_stream_means.csv  (one row per participant_id)
+Output: outputs/cohort/wearable_stream_means.csv  (one row per participant_id)
 
 Run from repo root:
     .venv/bin/python src/wearable_stream_aggregates.py

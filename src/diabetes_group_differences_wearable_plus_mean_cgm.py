@@ -13,8 +13,8 @@ mean_respiratory_rate_bpm, mean_sleep_hours.
 See diabetes_group_differences.py for full methodology notes.
 
 Outputs:
-  outputs/diabetes_group_differences_wearable_plus_mean_cgm.csv
-  outputs/diabetes_group_differences_wearable_plus_mean_cgm_dunn.csv
+  outputs/group_differences/diabetes_group_differences_wearable_plus_mean_cgm.csv
+  outputs/group_differences/diabetes_group_differences_wearable_plus_mean_cgm_dunn.csv
 
 Run from repo root:
     .venv/bin/python src/diabetes_group_differences_wearable_plus_mean_cgm.py

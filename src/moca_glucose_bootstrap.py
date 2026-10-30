@@ -10,7 +10,7 @@ analysis:
   4. by diabetes status x age band   -> moca_glucose_bootstrap_by_diabetes_age.csv
 
 Feature: mean_glucose (from master_patient_features.csv; verified to equal the
-per-person mean of all raw CGM readings in outputs/glucose_raw.csv).
+per-person mean of all raw CGM readings in outputs/glycemic_phenotype/glucose_raw.csv).
 
 Multiple-comparison note: the wearable analysis applied BH-FDR across the FIVE
 features within each stratum. Here there is only ONE feature, so within-stratum

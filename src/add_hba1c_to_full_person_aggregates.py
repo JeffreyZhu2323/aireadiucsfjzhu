@@ -1,5 +1,5 @@
 """
-Add hba1c_percent to outputs/full_person_aggregates.csv: each person's lab
+Add hba1c_percent to outputs/cohort/full_person_aggregates.csv: each person's lab
 HbA1c from the OMOP measurement table, in percent.
 
 HbA1c is drawn once per participant, so this is a single value per person, not
@@ -12,7 +12,7 @@ hemoglobin.
 Inserted after days_tracked, so the CGM-derived block stays contiguous and the
 lab-based glycemic anchor sits next to it.
 
-Overwrites outputs/full_person_aggregates.csv in place.
+Overwrites outputs/cohort/full_person_aggregates.csv in place.
 
 Run from repo root:
     .venv/bin/python src/add_hba1c_to_full_person_aggregates.py

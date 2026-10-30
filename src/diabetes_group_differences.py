@@ -1,6 +1,6 @@
 """
 Compare glucose-spike aggregates and wearable activity metrics across the four
-diabetes-status groups (one row per person in outputs/full_person_aggregates.csv):
+diabetes-status groups (one row per person in outputs/cohort/full_person_aggregates.csv):
 
     healthy
     pre_diabetes_lifestyle_controlled
@@ -27,8 +27,8 @@ total_spikes is exposure-driven (more tracked days -> more total spikes); prefer
 avg_spikes_per_day. total_spikes is still reported but read it with that caveat.
 
 Outputs:
-  outputs/diabetes_group_differences.csv        (omnibus + per-group descriptives)
-  outputs/diabetes_group_differences_dunn.csv   (pairwise Dunn's, sig. metrics)
+  outputs/group_differences/diabetes_group_differences.csv        (omnibus + per-group descriptives)
+  outputs/group_differences/diabetes_group_differences_dunn.csv   (pairwise Dunn's, sig. metrics)
 
 Run from repo root:
     .venv/bin/python src/diabetes_group_differences.py
