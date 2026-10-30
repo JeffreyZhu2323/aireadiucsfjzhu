@@ -529,8 +529,10 @@ so were dropped when the master table was built. Reconcile before quoting these
 numbers alongside the others, or recompute the three tables from
 `full_person_aggregates.csv` to put everything on one denominator.
 
-Note that MoCA is **cross-sectional**: 2,254 participants have a MoCA score and
-**none has a repeat test**, so no within-person cognitive change can be analyzed.
+Note that MoCA is **cross-sectional**: in the partner table 2,254 of 2,265
+participants have a MoCA score (2,234 of 2,245 in `full_person_aggregates.csv` —
+the two differ only by the 20 extra participants described above), and **none
+has a repeat test**, so no within-person cognitive change can be analyzed.
 
 ---
 
@@ -632,8 +634,10 @@ the impairment-activity family at 12345), so results are reproducible.
   answered it. Interpret with group restriction or adjustment.
 - The exported `dietscore` column was corrupt; use the recomputed
   `diet_risk_score`. CES-D reverse-scoring was already applied at capture.
-- `sdoh_job_loss_likely` has low coverage (n ≈ 859) because code 0 means
-  "don't know". Uninsured and no-usual-care flags are sparse at ~2%.
+- `sdoh_job_loss_likely` has low coverage — 877 of 2,245 non-null — because code
+  0 means "don't know". Its analysis n is lower still once paired with an
+  outcome (859 against HbA1c, 877 against mean CGM). Uninsured and
+  no-usual-care flags are sparse at ~2%.
 - Spike detection uses a 140 mg/dL threshold with a one-reading dip tolerance
   across gaps ≤ 10 min. Interpolating episode boundaries does **not** change
   detection — both methods find 85,993 episodes cohort-wide, validated over
