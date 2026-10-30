@@ -37,18 +37,66 @@ HbA1c, and 26 of 44 against mean CGM.**
 Strongest associations against HbA1c
 (`outputs/survey_glycemia/survey_hba1c_spearman_bootstrap.csv`):
 
-| Feature | rho | 95% CI | q | n |
-|---|---:|---|---:|---:|
-| `paid5_total` (diabetes distress) | +0.252 | [+0.211, +0.292] | 1.8e-30 | 2127 |
-| `dm_selfcare_healthcare` | +0.236 | [+0.198, +0.275] | 2.9e-26 | 2065 |
-| `sdoh_education_years` | −0.162 | [−0.204, −0.118] | 3.7e-12 | 1971 |
-| `dm_selfcare_footcare` | +0.161 | [+0.121, +0.202] | 5.5e-13 | 2176 |
-| `dm_selfcare_exercise` | −0.155 | [−0.197, −0.113] | 3.7e-12 | 2168 |
-| `food_insecurity_score` | +0.155 | [+0.111, +0.197] | 3.7e-12 | 2146 |
-| `sdoh_college_graduate` | −0.158 | [−0.202, −0.114] | 9.0e-12 | 1971 |
-| `diet_sugary_drinks` | +0.117 | [+0.074, +0.159] | 2.8e-07 | 2094 |
-| `sdoh_adversity_index` | +0.114 | [+0.069, +0.159] | 1.3e-06 | 1967 |
-| `cesd10_depressed` | +0.072 | [+0.028, +0.115] | 1.5e-03 | 2179 |
+| Feature | Instrument | Direction | rho | 95% CI | q | n |
+|---|---|---|---|---|---|---|
+| `paid5_total` | PAID-5 | higher = worse | +0.252 | [+0.211, +0.292] | 1.8e-30 | 2127 |
+| `dm_selfcare_healthcare` | Self-care | higher = better | +0.236 | [+0.198, +0.275] | 2.9e-26 | 2065 |
+| `dm_selfcare_footcare` | Self-care | higher = better | +0.161 | [+0.121, +0.202] | 5.5e-13 | 2176 |
+| `dm_selfcare_exercise` | Self-care | higher = better | -0.155 | [-0.197, -0.113] | 3.7e-12 | 2168 |
+| `sdoh_education_years` | SDOH | higher = better | -0.162 | [-0.204, -0.118] | 3.7e-12 | 1971 |
+| `food_insecurity_score` | Food insecurity | higher = worse | +0.155 | [+0.111, +0.197] | 3.7e-12 | 2146 |
+| `sdoh_education_code` | SDOH | higher = better | -0.161 | [-0.203, -0.117] | 3.7e-12 | 1971 |
+| `sdoh_college_graduate` | SDOH | higher = better | -0.158 | [-0.202, -0.114] | 9.0e-12 | 1971 |
+| `food_insecurity_hvs_positive` | Food insecurity | higher = worse | +0.149 | [+0.105, +0.193] | 2.5e-11 | 2132 |
+| `food_insecure` | Food insecurity | higher = worse | +0.140 | [+0.094, +0.182] | 3.5e-10 | 2146 |
+| `diet_sugary_drinks` | Dietary | higher = worse | +0.117 | [+0.074, +0.159] | 2.8e-07 | 2094 |
+| `paid5_distress` | PAID-5 | higher = worse | +0.112 | [+0.070, +0.157] | 7.4e-07 | 2127 |
+| `sdoh_adversity_index` | SDOH | higher = worse | +0.114 | [+0.069, +0.159] | 1.3e-06 | 1967 |
+| `sdoh_rx_cost_barrier_count` | SDOH | higher = worse | +0.108 | [+0.060, +0.154] | 7.3e-06 | 1904 |
+| `diet_risk_score` | Dietary | higher = worse | +0.100 | [+0.057, +0.142] | 1.3e-05 | 2097 |
+| `sdoh_insurance_type_count` | SDOH | nominal | +0.103 | [+0.055, +0.150] | 3.4e-05 | 1793 |
+| `sdoh_rx_cost_barrier_self` | SDOH | higher = worse | +0.092 | [+0.045, +0.137] | 1.2e-04 | 1967 |
+| `sdoh_urgent_care_visits_code` | SDOH | higher = worse | +0.083 | [+0.038, +0.129] | 5.4e-04 | 1967 |
+| `sdoh_uninsured` | SDOH | higher = worse | +0.087 | [+0.036, +0.135] | 5.4e-04 | 1793 |
+| `food_insecurity_items_answered` | Food insecurity | QC | -0.077 | [-0.117, -0.037] | 6.5e-04 | 2182 |
+| `dm_selfcare_items_answered` | Self-care | QC | +0.077 | [+0.037, +0.115] | 6.8e-04 | 2182 |
+| `cesd10_depressed` | CES-D-10 | higher = worse | +0.072 | [+0.028, +0.115] | 0.001 | 2179 |
+| `sdoh_housing_instability` | SDOH | higher = worse | +0.069 | [+0.024, +0.112] | 0.004 | 1967 |
+| `diet_fat_processed` | Dietary | higher = worse | +0.064 | [+0.021, +0.107] | 0.006 | 2099 |
+| `sdoh_hospitalized_overnight` | SDOH | higher = worse | +0.053 | [+0.004, +0.100] | 0.033 | 1971 |
+| `sdoh_care_access_barrier_count` | SDOH | higher = worse | +0.051 | [+0.005, +0.098] | 0.041 | 1940 |
+
+And against mean CGM
+(`outputs/survey_glycemia/survey_mean_cgm_spearman_bootstrap.csv`):
+
+| Feature | Instrument | Direction | rho | 95% CI | q | n |
+|---|---|---|---|---|---|---|
+| `paid5_total` | PAID-5 | higher = worse | +0.223 | [+0.182, +0.263] | 2.5e-24 | 2190 |
+| `dm_selfcare_healthcare` | Self-care | higher = better | +0.197 | [+0.157, +0.236] | 1.3e-18 | 2125 |
+| `dm_selfcare_exercise` | Self-care | higher = better | -0.171 | [-0.211, -0.129] | 6.4e-15 | 2231 |
+| `dm_selfcare_footcare` | Self-care | higher = better | +0.139 | [+0.100, +0.179] | 4.2e-10 | 2239 |
+| `food_insecurity_hvs_positive` | Food insecurity | higher = worse | +0.116 | [+0.072, +0.159] | 4.4e-07 | 2193 |
+| `food_insecurity_score` | Food insecurity | higher = worse | +0.110 | [+0.065, +0.152] | 1.8e-06 | 2207 |
+| `paid5_distress` | PAID-5 | higher = worse | +0.107 | [+0.066, +0.149] | 3.1e-06 | 2190 |
+| `food_insecure` | Food insecurity | higher = worse | +0.091 | [+0.044, +0.135] | 1.1e-04 | 2207 |
+| `sdoh_uninsured` | SDOH | higher = worse | +0.096 | [+0.046, +0.142] | 1.9e-04 | 1841 |
+| `sdoh_rx_cost_barrier_count` | SDOH | higher = worse | +0.086 | [+0.039, +0.131] | 5.8e-04 | 1956 |
+| `diet_risk_score` | Dietary | higher = worse | +0.081 | [+0.038, +0.124] | 6.1e-04 | 2159 |
+| `sdoh_rx_cost_barrier_self` | SDOH | higher = worse | +0.083 | [+0.037, +0.129] | 6.7e-04 | 2022 |
+| `sdoh_urgent_care_visits_code` | SDOH | higher = worse | +0.081 | [+0.036, +0.125] | 8.5e-04 | 2024 |
+| `sdoh_education_years` | SDOH | higher = better | -0.081 | [-0.123, -0.036] | 8.5e-04 | 2027 |
+| `sdoh_college_graduate` | SDOH | higher = better | -0.080 | [-0.123, -0.035] | 8.7e-04 | 2027 |
+| `sdoh_education_code` | SDOH | higher = better | -0.080 | [-0.122, -0.035] | 8.7e-04 | 2027 |
+| `diet_sugary_drinks` | Dietary | higher = worse | +0.073 | [+0.029, +0.116] | 0.002 | 2156 |
+| `food_insecurity_items_answered` | Food insecurity | QC | -0.069 | [-0.110, -0.027] | 0.003 | 2245 |
+| `sdoh_insurance_type_count` | SDOH | nominal | +0.075 | [+0.028, +0.120] | 0.003 | 1841 |
+| `dm_selfcare_items_answered` | Self-care | QC | +0.066 | [+0.027, +0.105] | 0.004 | 2245 |
+| `diet_items_answered` | Dietary | QC | -0.061 | [-0.102, -0.020] | 0.008 | 2245 |
+| `sdoh_adversity_index` | SDOH | higher = worse | +0.062 | [+0.017, +0.107] | 0.011 | 2022 |
+| `cesd10_depressed` | CES-D-10 | higher = worse | +0.057 | [+0.014, +0.100] | 0.013 | 2242 |
+| `diet_fat_processed` | Dietary | higher = worse | +0.058 | [+0.015, +0.100] | 0.013 | 2161 |
+| `sdoh_hospitalized_overnight` | SDOH | higher = worse | +0.056 | [+0.010, +0.102] | 0.021 | 2028 |
+| `dm_selfcare_diet` | Self-care | higher = better | -0.049 | [-0.091, -0.007] | 0.035 | 2212 |
 
 Then the correction. `survey_glycemic_severity_stratified_pooling.py` re-estimates
 every crude-significant association within each of the four study groups and
@@ -64,22 +112,64 @@ pools by inverse variance
 
 Survivors, with the magnitude of attenuation:
 
-| Feature (HbA1c) | crude rho | pooled rho | change | pooled q |
-|---|---:|---:|---:|---:|
-| `paid5_total` | +0.252 | +0.099 | −61% | 1.4e-04 |
-| `diet_sugary_drinks` | +0.117 | +0.087 | −26% | 8.9e-04 |
-| `diet_risk_score` | +0.100 | +0.085 | −15% | 9.0e-04 |
-| `dm_selfcare_exercise` | −0.155 | −0.070 | −55% | 4.8e-03 |
-| `sdoh_education_years` | −0.162 | −0.066 | −59% | 1.1e-02 |
-| `sdoh_college_graduate` | −0.158 | −0.067 | −58% | 1.1e-02 |
-| `food_insecurity_score` | +0.155 | +0.062 | −60% | 1.1e-02 |
-| `food_insecure` | +0.140 | +0.053 | −62% | 2.9e-02 |
-| `dm_selfcare_footcare` | +0.161 | +0.052 | −68% | 3.1e-02 |
+| Feature | Target | crude rho | pooled rho | change | pooled 95% CI | pooled q | homog. |
+|---|---|---|---|---|---|---|---|
+| `paid5_total` | HbA1c | +0.252 | +0.099 | -61% | [+0.056, +0.141] | 1.4e-04 | yes |
+| `sdoh_education_years` | HbA1c | -0.162 | -0.066 | -59% | [-0.109, -0.021] | 0.011 | yes |
+| `sdoh_education_code` | HbA1c | -0.161 | -0.064 | -60% | [-0.108, -0.020] | 0.011 | yes |
+| `dm_selfcare_footcare` | HbA1c | +0.161 | +0.052 | -68% | [+0.009, +0.093] | 0.031 | yes |
+| `sdoh_college_graduate` | HbA1c | -0.158 | -0.067 | -58% | [-0.111, -0.023] | 0.011 | no |
+| `dm_selfcare_exercise` | HbA1c | -0.155 | -0.070 | -55% | [-0.112, -0.028] | 0.005 | yes |
+| `food_insecurity_score` | HbA1c | +0.155 | +0.062 | -60% | [+0.020, +0.104] | 0.011 | yes |
+| `food_insecurity_hvs_positive` | HbA1c | +0.149 | +0.055 | -63% | [+0.013, +0.098] | 0.025 | yes |
+| `food_insecure` | HbA1c | +0.140 | +0.053 | -62% | [+0.011, +0.095] | 0.029 | yes |
+| `diet_sugary_drinks` | HbA1c | +0.117 | +0.087 | -26% | [+0.044, +0.129] | 8.9e-04 | yes |
+| `paid5_distress` | HbA1c | +0.112 | +0.054 | -52% | [+0.012, +0.097] | 0.027 | yes |
+| `diet_risk_score` | HbA1c | +0.100 | +0.085 | -15% | [+0.042, +0.127] | 9.0e-04 | yes |
+| `food_insecurity_items_answered` | HbA1c | -0.077 | -0.074 | -4% | [-0.116, -0.032] | 0.003 | yes |
+| `diet_fat_processed` | HbA1c | +0.064 | +0.079 | +22% | [+0.036, +0.121] | 0.002 | yes |
+| `paid5_total` | mean CGM | +0.223 | +0.090 | -60% | [+0.048, +0.132] | 3.2e-04 | yes |
+| `dm_selfcare_exercise` | mean CGM | -0.171 | -0.093 | -46% | [-0.134, -0.051] | 3.2e-04 | yes |
+| `paid5_distress` | mean CGM | +0.107 | +0.064 | -41% | [+0.022, +0.105] | 0.019 | yes |
+| `food_insecurity_items_answered` | mean CGM | -0.069 | -0.058 | -15% | [-0.099, -0.017] | 0.025 | yes |
+| `diet_items_answered` | mean CGM | -0.061 | -0.057 | -7% | [-0.098, -0.016] | 0.025 | yes |
+| `diet_fat_processed` | mean CGM | +0.058 | +0.060 | +4% | [+0.018, +0.102] | 0.025 | yes |
+| `dm_selfcare_diet` | mean CGM | -0.049 | -0.071 | +44% | [-0.112, -0.029] | 0.008 | yes |
+All 31 crude-significant associations that do **not** survive pooling:
 
-Casualties — crude-significant, pooled-null — include `dm_selfcare_healthcare`
-(+0.236 → +0.003, −99%, q = 0.94), `sdoh_rx_cost_barrier_self` (−99%),
-`sdoh_hospitalized_overnight` (−91%), and `cesd10_depressed` (−70%, q = 0.39).
-
+| Feature | Target | crude rho | pooled rho | change | pooled 95% CI | pooled q | homog. |
+|---|---|---|---|---|---|---|---|
+| `dm_selfcare_healthcare` | HbA1c | +0.236 | +0.003 | -99% | [-0.041, +0.046] | 0.941 | no |
+| `sdoh_adversity_index` | HbA1c | +0.114 | +0.038 | -67% | [-0.006, +0.082] | 0.135 | yes |
+| `sdoh_rx_cost_barrier_count` | HbA1c | +0.108 | +0.022 | -79% | [-0.023, +0.067] | 0.393 | yes |
+| `sdoh_insurance_type_count` | HbA1c | +0.103 | +0.050 | -51% | [+0.004, +0.096] | 0.059 | yes |
+| `sdoh_rx_cost_barrier_self` | HbA1c | +0.092 | +0.001 | -99% | [-0.043, +0.045] | 0.966 | yes |
+| `sdoh_uninsured` | HbA1c | +0.087 | +0.028 | -68% | [-0.019, +0.074] | 0.314 | yes |
+| `sdoh_urgent_care_visits_code` | HbA1c | +0.083 | +0.040 | -51% | [-0.004, +0.085] | 0.113 | yes |
+| `dm_selfcare_items_answered` | HbA1c | +0.077 | -0.014 | -82% | [-0.056, +0.028] | 0.587 | yes |
+| `cesd10_depressed` | HbA1c | +0.072 | +0.022 | -70% | [-0.020, +0.064] | 0.386 | yes |
+| `sdoh_housing_instability` | HbA1c | +0.069 | +0.043 | -38% | [-0.002, +0.087] | 0.096 | yes |
+| `sdoh_hospitalized_overnight` | HbA1c | +0.053 | -0.005 | -91% | [-0.049, +0.040] | 0.906 | yes |
+| `sdoh_care_access_barrier_count` | HbA1c | +0.051 | +0.031 | -39% | [-0.014, +0.076] | 0.237 | yes |
+| `dm_selfcare_healthcare` | mean CGM | +0.197 | +0.001 | -99% | [-0.041, +0.044] | 0.983 | no |
+| `dm_selfcare_footcare` | mean CGM | +0.139 | +0.039 | -72% | [-0.002, +0.081] | 0.165 | yes |
+| `food_insecurity_hvs_positive` | mean CGM | +0.116 | +0.023 | -80% | [-0.018, +0.065] | 0.470 | yes |
+| `food_insecurity_score` | mean CGM | +0.110 | +0.014 | -87% | [-0.028, +0.056] | 0.739 | yes |
+| `sdoh_uninsured` | mean CGM | +0.096 | +0.056 | -41% | [+0.011, +0.102] | 0.051 | yes |
+| `food_insecure` | mean CGM | +0.091 | -0.002 | -97% | [-0.044, +0.039] | 0.983 | yes |
+| `sdoh_rx_cost_barrier_count` | mean CGM | +0.086 | +0.005 | -94% | [-0.039, +0.049] | 0.934 | yes |
+| `sdoh_rx_cost_barrier_self` | mean CGM | +0.083 | +0.000 | -99% | [-0.043, +0.044] | 0.985 | yes |
+| `diet_risk_score` | mean CGM | +0.081 | +0.050 | -38% | [+0.008, +0.092] | 0.057 | yes |
+| `sdoh_urgent_care_visits_code` | mean CGM | +0.081 | +0.026 | -67% | [-0.017, +0.070] | 0.467 | yes |
+| `sdoh_education_years` | mean CGM | -0.081 | +0.024 | -71% | [-0.020, +0.067] | 0.470 | yes |
+| `sdoh_college_graduate` | mean CGM | -0.080 | +0.022 | -72% | [-0.022, +0.066] | 0.491 | yes |
+| `sdoh_education_code` | mean CGM | -0.080 | +0.026 | -68% | [-0.018, +0.069] | 0.467 | yes |
+| `sdoh_insurance_type_count` | mean CGM | +0.075 | +0.027 | -64% | [-0.019, +0.073] | 0.467 | yes |
+| `diet_sugary_drinks` | mean CGM | +0.073 | +0.031 | -58% | [-0.011, +0.073] | 0.355 | yes |
+| `dm_selfcare_items_answered` | mean CGM | +0.066 | -0.008 | -88% | [-0.050, +0.033] | 0.863 | yes |
+| `sdoh_adversity_index` | mean CGM | +0.062 | -0.013 | -80% | [-0.056, +0.031] | 0.753 | yes |
+| `cesd10_depressed` | mean CGM | +0.057 | +0.005 | -92% | [-0.037, +0.046] | 0.934 | yes |
+| `sdoh_hospitalized_overnight` | mean CGM | +0.056 | -0.012 | -78% | [-0.056, +0.031] | 0.753 | yes |
 **Two interpretive points the write-up should not miss.** First, the diabetes
 self-care scales are coded *higher = better*, so the positive crude correlations
 for `dm_selfcare_healthcare` and `dm_selfcare_footcare` mean that participants
@@ -99,7 +189,16 @@ Tested at two levels, because they answer different claims.
 (`outputs/survey_glycemia/hba1c_vs_cgm_magnitude_comparison.csv`, console
 statistics preserved in `reports/hba1c_vs_cgm_magnitude_comparison.txt`): mean
 |rho| is 0.0805 for HbA1c versus 0.0635 for mean CGM, and the correlation is
-weaker under CGM for 32 of 44 features. Five of six instruments point the same
+weaker under CGM for 32 of 44 features.
+
+| Instrument | features | mean \|rho\| HbA1c | mean \|rho\| CGM | mean diff | CGM/HbA1c |
+|---|---|---|---|---|---|
+| PhenX food insecurity | 4 | 0.1302 | 0.0962 | -0.0340 | 0.739 |
+| PhenX SDOH | 20 | 0.0713 | 0.0487 | -0.0226 | 0.683 |
+| CES-D-10 depression | 6 | 0.0307 | 0.0173 | -0.0134 | 0.562 |
+| Dietary questionnaire | 5 | 0.0727 | 0.0626 | -0.0100 | 0.862 |
+| Diabetes self-care | 6 | 0.1131 | 0.1085 | -0.0045 | 0.960 |
+| PAID-5 diabetes distress | 3 | 0.1223 | 0.1228 | +0.0005 | 1.004 | Five of six instruments point the same
 way (PAID-5 is the exception at parity, ratio 1.004). Mean difference −0.0140 on
 the raw |rho| scale; exact cluster sign-flip permutation p = 0.0625, which is at
 the floor of what six clusters can produce; cluster bootstrap 95% CI
@@ -119,13 +218,17 @@ bootstrap CI on the difference in |rho| as the distribution-free check. HbA1c ha
 the larger |rho| for 35 of 44 features, but **only 4 reach FDR significance** —
 and three of those are the same construct:
 
-| Feature | rho HbA1c | rho CGM | Δ\|rho\| | Williams t | q |
-|---|---:|---:|---:|---:|---:|
-| `sdoh_education_code` | −0.161 | −0.085 | +0.076 | −4.27 | 5.0e-04 |
-| `sdoh_education_years` | −0.162 | −0.086 | +0.075 | −4.25 | 5.0e-04 |
-| `sdoh_college_graduate` | −0.158 | −0.086 | +0.072 | −4.05 | 7.8e-04 |
-| `sdoh_english_first_language` | +0.019 | −0.039 | — | +3.25 | 1.3e-02 |
-
+| Feature | n | rho HbA1c | rho CGM | diff \|rho\| | Williams t | Williams q | bootstrap 95% CI | Williams sig. |
+|---|---|---|---|---|---|---|---|---|
+| `sdoh_education_code` | 1971 | -0.161 | -0.085 | +0.076 | -4.27 | 5.0e-04 | [+0.039, +0.112] | yes |
+| `sdoh_education_years` | 1971 | -0.162 | -0.086 | +0.075 | -4.25 | 5.0e-04 | [+0.039, +0.111] | yes |
+| `sdoh_college_graduate` | 1971 | -0.158 | -0.086 | +0.072 | -4.05 | 7.8e-04 | [+0.036, +0.108] | yes |
+| `sdoh_adversity_index` | 1967 | +0.114 | +0.065 | +0.049 | +2.76 | 0.051 | [+0.015, +0.084] | **no** |
+| `food_insecurity_score` | 2146 | +0.155 | +0.112 | +0.043 | +2.51 | 0.088 | [+0.008, +0.077] | **no** |
+| `diet_sugary_drinks` | 2094 | +0.117 | +0.076 | +0.042 | +2.36 | 0.108 | [+0.007, +0.075] | **no** |
+| `food_insecure` | 2146 | +0.140 | +0.100 | +0.040 | +2.34 | 0.108 | [+0.007, +0.073] | **no** |
+| `dm_selfcare_healthcare` | 2065 | +0.236 | +0.197 | +0.039 | +2.28 | 0.110 | [+0.006, +0.072] | **no** |
+| `food_insecurity_hvs_positive` | 2132 | +0.149 | +0.114 | +0.035 | +2.03 | 0.169 | [+0.000, +0.070] | **no** |
 The fourth is not an attenuation result: the two correlations have opposite
 signs, and its bootstrap CI [−0.069, +0.049] includes zero. Williams' t and the
 bootstrap disagree on 7 features overall; the script flags these and the
@@ -148,11 +251,19 @@ CGM features, 352 tests with global FDR
 
 **7 of 352 survive, and all 7 belong to a single feature**,
 `sdoh_english_first_language`, which is nominal and whose sign is not
-interpretable. They point consistently at hypoglycemia exposure (moderate-hypo
-sustained windows rho = +0.106, CI [+0.065, +0.145], q = 6.2e-04, n = 2020; time
-below range rho = +0.102; spikes per day rho = −0.077). On stratified re-check
-the association holds in healthy, oral-medication and insulin groups but is null
-in pre-diabetes.
+interpretable. All seven, against `sdoh_english_first_language`:
+
+| CGM feature | CGM family | n | rho | 95% CI | q |
+|---|---|---|---|---|---|
+| `cgm_mod_hypo_sustained_windows_per_day` | sustained excursions | 2020 | +0.106 | [+0.065, +0.145] | 6.2e-04 |
+| `cgm_time_below_range_frac` | time in range | 2020 | +0.102 | [+0.061, +0.143] | 7.0e-04 |
+| `cgm_mod_hypo_frac_time` | time in range | 2020 | +0.101 | [+0.059, +0.141] | 7.0e-04 |
+| `cgm_mod_hypo_windows_per_day` | excursion frequency | 2020 | +0.097 | [+0.055, +0.137] | 0.001 |
+| `avg_spikes_per_day` | spike pipeline | 2020 | -0.077 | [-0.118, -0.035] | 0.038 |
+| `cgm_sev_hypo_windows_per_day` | excursion frequency | 2020 | +0.074 | [+0.031, +0.113] | 0.048 |
+| `cgm_sev_hypo_frac_time` | time in range | 2020 | +0.073 | [+0.031, +0.113] | 0.048 |
+On stratified re-check the association holds in healthy, oral-medication and
+insulin groups but is null in pre-diabetes.
 
 This is a clean negative result and belongs in the paper as such: depression
 severity, medical discrimination, housing problems and the rest do not track CGM
@@ -185,6 +296,26 @@ movement** (0.0033, q = 0.10). Medians are essentially flat — steps range only
 The contrast is the finding: heart rate, stress, respiration and sleep separate
 the groups cleanly while *how much people actually move* does not.
 
+Which groups actually differ, from Dunn post-hoc on the six pairwise contrasts
+(`diabetes_group_differences_dunn.csv`, z statistics, **bold** = BH-significant
+at 0.05):
+
+| Metric | healthy vs pre | healthy vs oral | healthy vs insulin | pre vs oral | pre vs insulin | oral vs insulin |
+|---|---|---|---|---|---|---|
+| `avg_cgm_per_spike_mg_dl` | **-4.47** | **-16.80** | **-20.64** | **-11.11** | **-16.46** | **-8.36** |
+| `avg_spike_duration_minutes` | **-7.29** | **-21.60** | **-23.18** | **-12.77** | **-16.82** | **-7.44** |
+| `avg_spikes_per_day` | **-3.27** | **-3.84** | **+4.45** | -0.35 | **+6.65** | **+7.13** |
+| `mean_heartrate_bpm` | -0.79 | **-7.26** | **-7.82** | **-5.93** | **-6.90** | **-2.49** |
+| `mean_respiratory_rate_bpm` | +0.36 | **-4.00** | **-6.26** | **-4.04** | **-6.25** | **-3.29** |
+| `mean_sleep_hours` | +2.14 | **+3.77** | **+3.75** | +1.40 | +2.02 | +0.99 |
+| `mean_stress_level` | -0.77 | **-7.45** | **-8.18** | **-6.12** | **-7.26** | **-2.70** |
+| `night_movement` | +0.53 | **+3.37** | **+2.82** | **+2.61** | **+2.32** | +0.36 |
+| `total_movement` | +0.11 | **+2.52** | **+2.59** | **+2.23** | **+2.40** | +0.75 |
+| `total_spikes` | **-3.43** | **-3.56** | **+4.82** | +0.06 | **+7.13** | **+7.30** |
+Read the physiology rows left to right: healthy and pre-diabetes are generally
+indistinguishable and the separation appears once medication begins. Sleep is
+the weakest — only the two healthy-versus-medicated contrasts survive.
+
 One non-monotonic result needs careful wording. Spike **frequency** is highest in
 the pre-diabetes and oral-medication groups and **lowest in the insulin-dependent
 group** (2.82/day versus 3.91 for oral medication, Dunn z = 7.13,
@@ -211,27 +342,140 @@ Cohort-wide:
 | `mean_respiratory_rate_bpm` | 1987 | −0.080 | [−0.122, −0.036] | 3.8e-04 |
 | `mean_heartrate_bpm` | 1991 | −0.075 | [−0.119, −0.030] | 7.9e-04 |
 
-Adjusted for age and study group (OLS, HC3 robust SEs, n = 2227, R² = 0.078),
-spike burden remains independently associated with MoCA: `avg_spikes_per_day`
-−0.134 (p = 1.3e-04) and `avg_cgm_per_spike_mg_dl` −0.0148 (p = 0.0089), while
-`avg_spike_duration_minutes` drops to null (p = 0.680). Insulin-dependent status
-carries −1.59 MoCA points (p = 1.9e-07) and oral medication −0.46 (p = 0.0053)
-relative to healthy; age costs −0.049 points per year (p = 2.6e-16).
+Adjusted for age and study group (OLS, HC3 robust SEs, n = 2227, R² = 0.078,
+model p = 1.5e-33), spike burden stays independently associated with MoCA
+(`moca_score_adjusted_regression_coefficients.csv`):
 
-**The strata matter.** The glucose-cognition association is present at 40–54
-(rho = −0.178) and 55–69 (−0.186) but **absent at 70+** (−0.060, p = 0.166), and
-absent in the **insulin-dependent** group (rho = +0.0007, p = 0.991). The same
-pattern repeats for spike features and every wearable stream. None of the 12
-diabetes × age cells survives FDR.
+| Term | Coefficient | SE | z | p | 95% CI |
+|---|---|---|---|---|---|
+| Intercept | +31.8543 | 0.9341 | +34.10 | 7.1e-255 | [+30.0234, +33.6851] |
+| insulin-dependent (vs healthy) | -1.5853 | 0.3042 | -5.21 | 1.9e-07 | [-2.1816, -0.9891] |
+| oral medication (vs healthy) | -0.4609 | 0.1654 | -2.79 | 0.005 | [-0.7851, -0.1367] |
+| pre-diabetes (vs healthy) | -0.1496 | 0.1620 | -0.92 | 0.356 | [-0.4670, +0.1679] |
+| `avg_spikes_per_day` | -0.1339 | 0.0349 | -3.83 | 1.3e-04 | [-0.2023, -0.0654] |
+| `avg_spike_duration_minutes` | +0.0000 | 0.0001 | +0.41 | 0.680 | [-0.0001, +0.0002] |
+| `avg_cgm_per_spike_mg_dl` | -0.0148 | 0.0057 | -2.61 | 0.009 | [-0.0259, -0.0037] |
+| `meta_age` | -0.0491 | 0.0060 | -8.19 | 2.6e-16 | [-0.0609, -0.0374] |
+Spike *frequency* and in-spike glucose survive adjustment; spike *duration*
+drops to null, so the strong univariate duration correlation is largely carried
+by age and severity.
 
-Physical activity is largely an age artifact: the cohort-wide movement
-correlations (total movement rho = +0.075) fall to rho ≈ 0.02 and p > 0.24 after
-partialling out age. The one measure that survives age adjustment is
-`physical_activity_num_days`, the number of days the monitor was worn
-(partial rho = +0.061, p = 0.0049) — which is plausibly an adherence proxy rather
-than an activity measure, and should be framed that way. Participants below the
-MoCA < 26 cutoff did show lower movement and fewer wear days, but effect sizes
-are small (rank-biserial −0.06 to −0.08).
+All five wearable streams are associated with MoCA cohort-wide
+(`moca_wearable_stream_bootstrap.csv`):
+
+| Feature | n | rho | 95% CI | q |
+|---|---|---|---|---|
+| `mean_heartrate_bpm` | 1991 | -0.075 | [-0.119, -0.030] | 9.8e-04 |
+| `mean_oxygen_saturation_pct` | 1620 | +0.071 | [+0.023, +0.119] | 0.004 |
+| `mean_stress_level` | 1988 | -0.088 | [-0.132, -0.043] | 2.0e-04 |
+| `mean_respiratory_rate_bpm` | 1987 | -0.080 | [-0.122, -0.036] | 6.2e-04 |
+| `mean_sleep_hours` | 2098 | +0.138 | [+0.094, +0.181] | 1.0e-09 |
+**The strata matter, and this is the main qualifier on finding 5.** Mean glucose
+versus MoCA, by age band and by study group:
+
+| Stratum | Feature | n | rho | 95% CI | q | FDR sig. |
+|---|---|---|---|---|---|---|
+| 40-54 | `mean_glucose` | 713 | -0.178 | [-0.249, -0.104] | 2.4e-06 | yes |
+| 55-69 | `mean_glucose` | 982 | -0.186 | [-0.246, -0.124] | 1.3e-08 | yes |
+| 70+ | `mean_glucose` | 538 | -0.060 | [-0.143, +0.025] | 0.166 | **no** |
+| Stratum | Feature | n | rho | 95% CI | q | FDR sig. |
+|---|---|---|---|---|---|---|
+| healthy | `mean_glucose` | 759 | -0.144 | [-0.214, -0.074] | 2.6e-04 | yes |
+| pre-diabetes | `mean_glucose` | 549 | -0.081 | [-0.162, +0.003] | 0.078 | **no** |
+| oral med | `mean_glucose` | 676 | -0.109 | [-0.184, -0.030] | 0.009 | yes |
+| insulin | `mean_glucose` | 249 | +0.001 | [-0.126, +0.129] | 0.991 | **no** |
+The association holds at 40–54 and 55–69 but is **absent at 70+**, and absent in
+both the pre-diabetes and **insulin-dependent** groups. The same pattern repeats
+for spike features (FDR-significant rows only):
+
+| Stratum | Feature | n | rho | 95% CI | q |
+|---|---|---|---|---|---|
+| 40-54 | `avg_spike_duration_minutes` | 710 | -0.181 | [-0.252, -0.106] | 3.6e-06 |
+| 40-54 | `avg_cgm_per_spike_mg_dl` | 710 | -0.134 | [-0.207, -0.061] | 5.2e-04 |
+| 55-69 | `avg_spike_duration_minutes` | 980 | -0.204 | [-0.265, -0.140] | 3.4e-10 |
+| 55-69 | `avg_cgm_per_spike_mg_dl` | 980 | -0.184 | [-0.244, -0.120] | 1.0e-08 |
+| Stratum | Feature | n | rho | 95% CI | q |
+|---|---|---|---|---|---|
+| healthy | `avg_spike_duration_minutes` | 756 | -0.163 | [-0.232, -0.093] | 2.1e-05 |
+| healthy | `avg_spikes_per_day` | 760 | -0.101 | [-0.173, -0.027] | 0.008 |
+| healthy | `avg_cgm_per_spike_mg_dl` | 756 | -0.092 | [-0.160, -0.022] | 0.011 |
+| oral med | `avg_spike_duration_minutes` | 676 | -0.110 | [-0.185, -0.036] | 0.013 |
+| oral med | `avg_cgm_per_spike_mg_dl` | 676 | -0.094 | [-0.169, -0.019] | 0.022 |
+| Stratum | Feature | n | rho | 95% CI | q |
+|---|---|---|---|---|---|
+| healthy / 40-54 | `avg_cgm_per_spike_mg_dl` | 273 | -0.145 | [-0.256, -0.031] | 0.049 |
+| healthy / 55-69 | `avg_spike_duration_minutes` | 313 | -0.165 | [-0.276, -0.057] | 0.010 |
+| healthy / 55-69 | `avg_spikes_per_day` | 314 | -0.123 | [-0.235, -0.007] | 0.044 |
+And for the wearable streams:
+
+| Stratum | Feature | n | rho | 95% CI | q |
+|---|---|---|---|---|---|
+| 40-54 | `mean_heartrate_bpm` | 647 | -0.149 | [-0.223, -0.072] | 3.6e-04 |
+| 40-54 | `mean_stress_level` | 646 | -0.122 | [-0.194, -0.045] | 0.002 |
+| 40-54 | `mean_respiratory_rate_bpm` | 646 | -0.125 | [-0.197, -0.047] | 0.002 |
+| 40-54 | `mean_sleep_hours` | 677 | +0.146 | [+0.071, +0.221] | 3.6e-04 |
+| 55-69 | `mean_heartrate_bpm` | 873 | -0.127 | [-0.193, -0.061] | 2.8e-04 |
+| 55-69 | `mean_stress_level` | 871 | -0.141 | [-0.206, -0.074] | 7.6e-05 |
+| 55-69 | `mean_sleep_hours` | 921 | +0.170 | [+0.105, +0.233] | 1.0e-06 |
+| Stratum | Feature | n | rho | 95% CI | q |
+|---|---|---|---|---|---|
+| healthy | `mean_heartrate_bpm` | 686 | -0.098 | [-0.173, -0.019] | 0.017 |
+| healthy | `mean_stress_level` | 686 | -0.107 | [-0.179, -0.031] | 0.013 |
+| healthy | `mean_sleep_hours` | 717 | +0.154 | [+0.081, +0.227] | 1.8e-04 |
+| pre-diabetes | `mean_oxygen_saturation_pct` | 373 | +0.126 | [+0.027, +0.224] | 0.038 |
+| pre-diabetes | `mean_respiratory_rate_bpm` | 492 | -0.138 | [-0.223, -0.053] | 0.011 |
+| oral med | `mean_sleep_hours` | 624 | +0.136 | [+0.057, +0.215] | 0.003 |
+| Stratum | Feature | n | rho | 95% CI | q |
+|---|---|---|---|---|---|
+| healthy / 40-54 | `mean_heartrate_bpm` | 254 | -0.169 | [-0.285, -0.045] | 0.035 |
+| healthy / 55-69 | `mean_heartrate_bpm` | 281 | -0.160 | [-0.279, -0.040] | 0.012 |
+| healthy / 55-69 | `mean_stress_level` | 281 | -0.182 | [-0.292, -0.065] | 0.006 |
+| healthy / 55-69 | `mean_sleep_hours` | 296 | +0.239 | [+0.129, +0.349] | 1.6e-04 |
+| oral med / 40-54 | `mean_sleep_hours` | 162 | +0.212 | [+0.052, +0.355] | 0.034 |
+Note what is *absent* from these tables: **no stratum of the insulin-dependent
+group reaches significance for any exposure**, and none of the 12 diabetes × age
+cells survives FDR for mean glucose. Every surviving cross-stratified cell is
+either healthy or oral-medication.
+
+**Physical activity is largely an age artifact.** The crude and age-partial
+correlations side by side make this unambiguous
+(`moca_physical_activity_correlation.csv`):
+
+| Metric | n | crude rho | crude q | age-partial rho | age-partial p |
+|---|---|---|---|---|---|
+| `total_movement` | 2107 | +0.075 | 0.003 | +0.017 | 0.430 |
+| `day_movement` | 2107 | +0.068 | 0.005 | +0.025 | 0.248 |
+| `night_movement` | 2107 | +0.064 | 0.007 | +0.000 | 0.988 |
+| `physical_activity_num_days` | 2130 | +0.060 | 0.009 | +0.061 | 0.005 |
+| `average_daily_activity` | 2130 | +0.041 | 0.068 | -0.016 | 0.454 |
+| `average_active_calories_kcal` | 2173 | +0.028 | 0.200 | -0.026 | 0.229 |
+Three of the four crude-significant movement measures collapse to near zero once
+age is partialled out. The only survivor is `physical_activity_num_days`, the
+number of days the monitor was worn — plausibly an adherence or engagement proxy
+rather than an activity measure, and it should be framed that way.
+
+The impairment analysis points the same way
+(`moca_impairment_activity_tests.csv`, FDR-significant rows):
+
+| MoCA cutoff | Metric | n impaired / unimpaired | median impaired vs not | rank-biserial | 95% CI | q | mean-diff CI excl. 0 |
+|---|---|---|---|---|---|---|---|
+| 26 | `total_movement` | 853 / 1254 | 49,123 vs 52,114 | -0.075 | [-0.127, -0.023] | 0.010 | **no** |
+| 26 | `day_movement` | 853 / 1254 | 26,895 vs 29,039 | -0.069 | [-0.120, -0.018] | 0.015 | **no** |
+| 26 | `night_movement` | 853 / 1254 | 20,999 vs 22,475 | -0.062 | [-0.113, -0.013] | 0.022 | **no** |
+| 26 | `physical_activity_num_days` | 860 / 1270 | 15 vs 16 | -0.082 | [-0.133, -0.033] | 0.007 | **no** |
+| 24 | `physical_activity_num_days` | 459 / 1671 | 15 vs 15 | -0.081 | [-0.142, -0.019] | 0.045 | **no** |
+| 23 | `physical_activity_num_days` | 329 / 1801 | 15 vs 15 | -0.092 | [-0.162, -0.023] | 0.044 | **no** |
+Two cautions on this table. Effect sizes are small (rank-biserial −0.06 to
+−0.09), and although the rank-biserial CIs exclude zero, **the mean-difference
+CIs do not for any row** — this is a distributional shift, not a clean difference
+in means. At cutoffs 24 and 23 the medians are identical (15 vs 15 days), so the
+significance there is distribution shape rather than central tendency. Only
+`physical_activity_num_days` survives the stricter cutoffs; the movement metrics
+are significant at MoCA < 26 only.
+
+Stratified, just two cells survive: `physical_activity_num_days` in the 55–69
+band (rho = +0.092, q = 0.030, n = 930) and in 55–69 oral-medication
+participants (rho = +0.219, q = 6.9e-04, n = 304).
 
 Note that MoCA is **cross-sectional**: 2,254 participants have a MoCA score and
 **none has a repeat test**, so no within-person cognitive change can be analyzed.
